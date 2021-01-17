@@ -1,294 +1,555 @@
-[07:58:45] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[07:58:46] [main/INFO]: Reloading ResourceManager: Default, bukkit, afk display v1.1.0, anti creeper grief v1.1.0, double shulker shells v1.3.0, dragon drops v1.3.0, fast leaf decay v2.0.3, larger phantoms v1.2.1, multiplayer sleep v2.5.2
-[07:58:46] [Worker-Main-4/INFO]: Loaded 7 recipes
-[07:58:47] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/ender_dragon
-[07:58:47] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/shulker
-[07:58:47] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[07:58:47] [Server thread/INFO]: Loading properties
-[07:58:47] [Server thread/INFO]: This server is running Paper version git-Paper-414 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[07:58:47] [Server thread/INFO]: Debug logging is disabled
-[07:58:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[07:58:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[07:58:47] [Server thread/INFO]: Default game type: SURVIVAL
-[07:58:47] [Server thread/INFO]: Generating keypair
-[07:58:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:58:48] [Server thread/INFO]: Using default channel type
-[07:58:48] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[07:58:51] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
-[07:58:51] [Server thread/INFO]: [BroulfFreeze] Loading BroulfFreeze v1.0
-[07:58:51] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
-[07:58:51] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
-[07:58:51] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@445ed82a]
-[07:58:51] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.5
-[07:58:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[07:58:51] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
-[07:58:51] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[07:58:51] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
-[07:58:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[07:58:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[07:58:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[07:58:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[07:58:52] [Server thread/INFO]: Preparing level "world"
-[07:58:52] [Server thread/INFO]: -------- World Settings For [world] --------
-[07:58:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:58:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:58:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:58:52] [Server thread/INFO]: View Distance: 12
-[07:58:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:58:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:58:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:58:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:58:52] [Server thread/INFO]: Mob Spawn Range: 8
-[07:58:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:58:52] [Server thread/INFO]: Experience Merge Radius: -1.0
-[07:58:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Max TNT Explosions: 100
-[07:58:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:58:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:58:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:58:52] [Server thread/ERROR]: Could not add item GOLDEN_NUGGETS to altItemDespawnRateMap: No enum constant org.bukkit.Material.GOLDEN_NUGGETS
-[07:58:52] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[07:58:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[07:58:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:58:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:58:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:58:52] [Server thread/INFO]: View Distance: 12
-[07:58:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:58:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:58:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:58:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:58:52] [Server thread/INFO]: Mob Spawn Range: 8
-[07:58:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:58:52] [Server thread/INFO]: Experience Merge Radius: -1.0
-[07:58:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Max TNT Explosions: 100
-[07:58:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:58:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:58:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:58:52] [Server thread/ERROR]: Could not add item GOLDEN_NUGGETS to altItemDespawnRateMap: No enum constant org.bukkit.Material.GOLDEN_NUGGETS
-[07:58:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[07:58:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[07:58:52] [Server thread/INFO]: Item Merge Radius: 2.5
-[07:58:52] [Server thread/INFO]: Item Despawn Rate: 6000
-[07:58:52] [Server thread/INFO]: View Distance: 12
-[07:58:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[07:58:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[07:58:52] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[07:58:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[07:58:52] [Server thread/INFO]: Mob Spawn Range: 8
-[07:58:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[07:58:52] [Server thread/INFO]: Experience Merge Radius: -1.0
-[07:58:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Cane Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Melon Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Potato Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Vine Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[07:58:52] [Server thread/INFO]: Max TNT Explosions: 100
-[07:58:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[07:58:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[07:58:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[07:58:52] [Server thread/ERROR]: Could not add item GOLDEN_NUGGETS to altItemDespawnRateMap: No enum constant org.bukkit.Material.GOLDEN_NUGGETS
-[07:58:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:58:53] [Server thread/INFO]: Loaded 0 spawn chunks for world world
-[07:58:53] [Server thread/INFO]: Preparing spawn area: 0%
-[07:58:53] [Server thread/INFO]: Time elapsed: 357 ms
-[07:58:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[07:58:53] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
-[07:58:53] [Server thread/INFO]: Time elapsed: 77 ms
-[07:58:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[07:58:53] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
-[07:58:53] [Server thread/INFO]: Time elapsed: 72 ms
-[07:58:53] [Server thread/INFO]: [BroulfFreeze] Enabling BroulfFreeze v1.0
-[07:58:53] [Server thread/INFO]: Welcome to BroulfFreeze 1.0
-[07:58:53] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
-[07:58:53] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.5
-[07:58:53] [Server thread/INFO]: Running delayed init tasks
-[07:58:53] [Server thread/INFO]: Done (5.737s)! For help, type "help"
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_275
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
-[07:58:53] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
-[07:58:53] [Server thread/INFO]: Timings Reset
-[07:59:33] [User Authenticator #1/INFO]: UUID of player GmoneyKat is c8f632bb-6503-3fb2-9f45-ace8cc35eedf
-[07:59:33] [Server thread/INFO]: GmoneyKat joined the game
-[07:59:33] [Server thread/INFO]: GmoneyKat[/0:0:0:0:0:0:0:1:50402] logged in with entity id 269 at ([world]1084.9424816246174, 64.0, -151.13688231657187)
-[07:59:38] [User Authenticator #1/INFO]: UUID of player Broulf is cee5ff57-e3bd-3f68-a09a-0a02c9da0028
-[07:59:38] [Server thread/INFO]: Broulf joined the game
-[07:59:38] [Server thread/INFO]: Broulf[/0:0:0:0:0:0:0:1:50405] logged in with entity id 527 at ([world]-4.601977286975912, 61.0, 600.9875833546928)
-[07:59:48] [User Authenticator #1/INFO]: UUID of player DangerNoodle02 is 1fd6f2b1-732c-3507-add8-948c09cbdae5
-[07:59:48] [Server thread/INFO]: DangerNoodle02 joined the game
-[07:59:48] [Server thread/INFO]: DangerNoodle02[/0:0:0:0:0:0:0:1:50409] logged in with entity id 898 at ([world]-8.665448386567512, 60.5625, 602.5719972812354)
-[08:00:50] [Server thread/INFO]: DangerNoodle02 has made the advancement [Diamonds!]
-[08:00:52] [User Authenticator #2/INFO]: UUID of player Sparkhelm is 65c9c8a4-f41e-39d3-9a8a-ae33edc99ef6
-[08:00:52] [Server thread/INFO]: Sparkhelm joined the game
-[08:00:52] [Server thread/INFO]: Sparkhelm[/0:0:0:0:0:0:0:1:50447] logged in with entity id 1254 at ([world]-129.11746949800025, 65.0, 152.54324924353338)
-[08:01:31] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
-[08:01:31] [Server thread/INFO]: Sparkhelm left the game
-[08:01:42] [User Authenticator #2/INFO]: UUID of player Sparkhelm is 65c9c8a4-f41e-39d3-9a8a-ae33edc99ef6
-[08:01:43] [Server thread/INFO]: Sparkhelm joined the game
-[08:01:43] [Server thread/INFO]: Sparkhelm[/0:0:0:0:0:0:0:1:50470] logged in with entity id 1789 at ([world]-184.09569396966742, 72.49520087700593, 232.76468623664505)
-[08:04:07] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
-[08:04:07] [Server thread/INFO]: GmoneyKat left the game
-[08:04:16] [User Authenticator #3/INFO]: UUID of player GmoneyKat is c8f632bb-6503-3fb2-9f45-ace8cc35eedf
-[08:04:16] [Server thread/INFO]: GmoneyKat joined the game
-[08:04:16] [Server thread/INFO]: GmoneyKat[/0:0:0:0:0:0:0:1:50533] logged in with entity id 3920 at ([world]1131.300000011921, 69.0, -122.69999998807907)
-[08:05:37] [User Authenticator #4/INFO]: UUID of player XXXSADACION is 3c58398d-7e51-3e5c-abfe-31f76b37deb6
-[08:05:37] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@3f84e1c[id=3c58398d-7e51-3e5c-abfe-31f76b37deb6,name=XXXSADACION,properties={},legacy=false] (/0:0:0:0:0:0:0:1:62084): You are not whitelisted on this server!
-[08:05:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@3f84e1c[id=3c58398d-7e51-3e5c-abfe-31f76b37deb6,name=XXXSADACION,properties={},legacy=false] (/0:0:0:0:0:0:0:1:62084) lost connection: You are not whitelisted on this server!
-[08:05:55] [Server thread/INFO]: DangerNoodle02 was slain by Broulf
-[08:07:11] [Server thread/INFO]: Broulf issued server command: /tps
-[08:07:21] [Server thread/INFO]: Broulf lost connection: Disconnected
-[08:07:21] [Server thread/INFO]: Broulf left the game
-[08:07:45] [User Authenticator #5/INFO]: UUID of player Broulf is cee5ff57-e3bd-3f68-a09a-0a02c9da0028
-[08:07:45] [Server thread/INFO]: Broulf joined the game
-[08:07:45] [Server thread/INFO]: Broulf[/10.156.82.161:54476] logged in with entity id 7346 at ([world]-6.612593004078916, 66.0, 575.4494918010691)
-[08:08:39] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
-[08:08:39] [Server thread/INFO]: GmoneyKat left the game
-[08:09:49] [User Authenticator #6/INFO]: UUID of player GmoneyKat is c8f632bb-6503-3fb2-9f45-ace8cc35eedf
-[08:09:49] [Server thread/INFO]: GmoneyKat joined the game
-[08:09:49] [Server thread/INFO]: GmoneyKat[/0:0:0:0:0:0:0:1:62186] logged in with entity id 8429 at ([world]1134.8743083978097, 66.0, -120.20487992644621)
-[08:10:43] [Server thread/INFO]: Sparkhelm has made the advancement [Stone Age]
-[08:13:29] [Server thread/WARN]: Sparkhelm was kicked due to keepalive timeout!
-[08:13:29] [Server thread/INFO]: Sparkhelm lost connection: Timed out
-[08:13:29] [Server thread/INFO]: Sparkhelm left the game
-[08:13:51] [User Authenticator #7/INFO]: UUID of player Sparkhelm is 65c9c8a4-f41e-39d3-9a8a-ae33edc99ef6
-[08:13:51] [Server thread/INFO]: Sparkhelm joined the game
-[08:13:51] [Server thread/INFO]: Sparkhelm[/0:0:0:0:0:0:0:1:51391] logged in with entity id 10335 at ([world]-575.0634334448634, 64.0, 305.82634574976066)
-[08:14:36] [Server thread/WARN]: Sparkhelm was kicked due to keepalive timeout!
-[08:14:36] [Server thread/INFO]: Sparkhelm lost connection: Timed out
-[08:14:36] [Server thread/INFO]: Sparkhelm left the game
-[08:14:57] [Server thread/INFO]: DangerNoodle02 has made the advancement [We Need to Go Deeper]
-[08:15:32] [User Authenticator #8/INFO]: UUID of player Sparkhelm is 65c9c8a4-f41e-39d3-9a8a-ae33edc99ef6
-[08:15:32] [Server thread/INFO]: Sparkhelm joined the game
-[08:15:32] [Server thread/INFO]: Sparkhelm[/0:0:0:0:0:0:0:1:51425] logged in with entity id 11148 at ([world]-575.0634334448634, 64.0, 305.82634574976066)
-[08:17:01] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
-[08:17:01] [Server thread/INFO]: GmoneyKat left the game
-[08:17:18] [User Authenticator #9/INFO]: UUID of player GmoneyKat is c8f632bb-6503-3fb2-9f45-ace8cc35eedf
-[08:17:18] [Server thread/INFO]: GmoneyKat joined the game
-[08:17:18] [Server thread/INFO]: GmoneyKat[/0:0:0:0:0:0:0:1:51520] logged in with entity id 12217 at ([world]1048.3070343465358, 68.0, -148.06719400172477)
-[08:18:27] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
-[08:18:27] [Server thread/INFO]: GmoneyKat left the game
-[08:23:07] [Server thread/INFO]: Sparkhelm issued server command: /sethome
-[08:23:08] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
-[08:23:08] [Server thread/INFO]: DangerNoodle02 left the game
-[08:23:12] [Server thread/INFO]: Sparkhelm issued server command: /home
-[08:23:36] [Server thread/INFO]: Sparkhelm drowned
-[08:23:42] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
-[08:23:42] [Server thread/INFO]: Sparkhelm left the game
-[08:24:23] [User Authenticator #10/INFO]: UUID of player Sparkhelm is 65c9c8a4-f41e-39d3-9a8a-ae33edc99ef6
-[08:24:23] [Server thread/INFO]: Sparkhelm joined the game
-[08:24:23] [Server thread/INFO]: Sparkhelm[/0:0:0:0:0:0:0:1:51755] logged in with entity id 15197 at ([world]-577.2038917683316, 56.0, 275.97528130216904)
-[08:24:34] [Server thread/INFO]: Sparkhelm issued server command: /home
-[08:24:55] [Async Chat Thread - #0/INFO]: <Broulf> Sparkhelm
-[08:24:56] [Server thread/INFO]: Sparkhelm issued server command: /home
-[08:25:37] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
-[08:25:37] [Server thread/INFO]: Sparkhelm left the game
-[08:26:25] [User Authenticator #11/INFO]: UUID of player DangerNoodle02 is 1fd6f2b1-732c-3507-add8-948c09cbdae5
-[08:26:25] [Server thread/INFO]: DangerNoodle02 joined the game
-[08:26:25] [Server thread/INFO]: DangerNoodle02[/0:0:0:0:0:0:0:1:51823] logged in with entity id 15874 at ([world]1266.4241150127802, 55.0, -33.300000011920936)
-[08:28:54] [Server thread/INFO]: Broulf lost connection: Disconnected
-[08:28:54] [Server thread/INFO]: Broulf left the game
-[08:30:51] [User Authenticator #12/INFO]: UUID of player Broulf is cee5ff57-e3bd-3f68-a09a-0a02c9da0028
-[08:30:51] [Server thread/INFO]: Broulf joined the game
-[08:30:51] [Server thread/INFO]: Broulf[/127.0.0.1:54750] logged in with entity id 17107 at ([world]-6.30000001192093, 60.0, 607.0277544511823)
-[08:31:41] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
-[08:31:41] [Server thread/INFO]: DangerNoodle02 left the game
-[08:33:07] [Server thread/INFO]: Broulf lost connection: Disconnected
-[08:33:07] [Server thread/INFO]: Broulf left the game
-[08:33:31] [User Authenticator #13/INFO]: UUID of player Broulf is cee5ff57-e3bd-3f68-a09a-0a02c9da0028
-[08:33:31] [Server thread/INFO]: Broulf joined the game
-[08:33:31] [Server thread/INFO]: Broulf[/127.0.0.1:54818] logged in with entity id 17689 at ([world]6.326456811422451, 64.0, 614.5914279350001)
-[08:35:32] [User Authenticator #14/INFO]: UUID of player Sparkhelm is 65c9c8a4-f41e-39d3-9a8a-ae33edc99ef6
-[08:35:32] [Server thread/INFO]: Sparkhelm joined the game
-[08:35:32] [Server thread/INFO]: Sparkhelm[/127.0.0.1:54860] logged in with entity id 18136 at ([world]-566.4279385921631, 64.0, 294.6521487901757)
-[08:36:17] [Server thread/WARN]: Sparkhelm was kicked due to keepalive timeout!
-[08:36:17] [Server thread/INFO]: Sparkhelm lost connection: Timed out
-[08:36:17] [Server thread/INFO]: Sparkhelm left the game
-[08:42:03] [User Authenticator #15/INFO]: UUID of player DangerNoodle02 is 1fd6f2b1-732c-3507-add8-948c09cbdae5
-[08:42:03] [Server thread/INFO]: DangerNoodle02 joined the game
-[08:42:03] [Server thread/INFO]: DangerNoodle02[/127.0.0.1:54996] logged in with entity id 19011 at ([world]1252.9312274682948, 60.593291275451925, -58.867084461971935)
-[08:42:40] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
-[08:42:40] [Server thread/INFO]: DangerNoodle02 left the game
-[08:46:15] [User Authenticator #16/INFO]: UUID of player DangerNoodle02 is 1fd6f2b1-732c-3507-add8-948c09cbdae5
-[08:46:15] [Server thread/INFO]: DangerNoodle02 joined the game
-[08:46:15] [Server thread/INFO]: DangerNoodle02[/0:0:0:0:0:0:0:1:55081] logged in with entity id 19649 at ([world]1267.7142902172875, 56.0, -31.07393042205775)
-[08:46:59] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
-[08:46:59] [Server thread/INFO]: DangerNoodle02 left the game
-[08:50:21] [Server thread/INFO]: Broulf lost connection: Disconnected
-[08:50:21] [Server thread/INFO]: Broulf left the game
-[08:51:20] [User Authenticator #17/INFO]: UUID of player Broulf is cee5ff57-e3bd-3f68-a09a-0a02c9da0028
-[08:51:20] [Server thread/INFO]: com.mojang.authlib.GameProfile@223f1e87[id=cee5ff57-e3bd-3f68-a09a-0a02c9da0028,name=Broulf,properties={},legacy=false] (/127.62.176.137:55253) lost connection: Disconnected
-[09:00:29] [Server thread/INFO]: Stopping the server
-[09:00:29] [Server thread/INFO]: Stopping server
-[09:00:29] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.5
-[09:00:29] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
-[09:00:29] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[09:00:30] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
-[09:00:30] [Server thread/INFO]: [BroulfFreeze] Disabling BroulfFreeze v1.0
-[09:00:30] [Server thread/INFO]: BroulfFreeze  1.0 has been disabled.
-[09:00:30] [Server thread/INFO]: Saving players
-[09:00:30] [Server thread/INFO]: Saving worlds
-[09:00:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:00:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[09:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:00:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[09:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:00:30] [Server thread/INFO]: Flushing Chunk IO
-[09:00:30] [Server thread/INFO]: Closing Thread Pool
-[09:00:30] [Server thread/INFO]: Closing Server
+[14:17:54] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:17:54] [main/INFO]: Reloading ResourceManager: Default, bukkit, afk display v1.1.0, anti creeper grief v1.1.0, double shulker shells v1.3.0, dragon drops v1.3.0, fast leaf decay v2.0.3, larger phantoms v1.2.1, multiplayer sleep v2.5.2
+[14:17:56] [Worker-Main-1/INFO]: Loaded 7 recipes
+[14:17:56] [Worker-Main-1/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/ender_dragon
+[14:17:56] [Worker-Main-1/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/shulker
+[14:17:57] [Server thread/INFO]: Starting minecraft server version 1.16.4
+[14:17:57] [Server thread/INFO]: Loading properties
+[14:17:57] [Server thread/INFO]: This server is running Paper version git-Paper-414 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
+[14:17:57] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:17:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:17:57] [Server thread/INFO]: Debug logging is disabled
+[14:17:57] [Server thread/INFO]: Default game type: SURVIVAL
+[14:17:57] [Server thread/INFO]: Generating keypair
+[14:17:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:17:57] [Server thread/INFO]: Using default channel type
+[14:17:58] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:18:03] [Server thread/WARN]: Legacy plugin SetHome v5.1.2 does not specify an api-version.
+[14:18:03] [Server thread/INFO]: [BroulfFreeze] Loading BroulfFreeze v1.0
+[14:18:03] [Server thread/INFO]: [SetHome] Loading SetHome v5.1.2
+[14:18:03] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.0+a51fa43
+[14:18:03] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1e4a242]
+[14:18:03] [Server thread/INFO]: [OpenInv] Loading OpenInv v4.1.5
+[14:18:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:18:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.0+a51fa43
+[14:18:03] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:18:03] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_16_R3 as the Bukkit adapter
+[14:18:04] [Server thread/INFO]: Preparing level "world"
+[14:18:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[14:18:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:18:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:18:04] [Server thread/INFO]: View Distance: 12
+[14:18:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:18:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:18:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:18:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:18:04] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:18:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:18:04] [Server thread/INFO]: Mob Spawn Range: 8
+[14:18:04] [Server thread/INFO]: Experience Merge Radius: -1.0
+[14:18:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:18:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:18:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:18:04] [Server thread/INFO]: Max TNT Explosions: 100
+[14:18:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:18:04] [Server thread/ERROR]: Could not add item GOLDEN_NUGGETS to altItemDespawnRateMap: No enum constant org.bukkit.Material.GOLDEN_NUGGETS
+[14:18:04] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:18:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[14:18:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:18:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:18:05] [Server thread/INFO]: View Distance: 12
+[14:18:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:18:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:18:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:18:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:18:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:18:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:18:05] [Server thread/INFO]: Mob Spawn Range: 8
+[14:18:05] [Server thread/INFO]: Experience Merge Radius: -1.0
+[14:18:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:18:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:18:05] [Server thread/INFO]: Max TNT Explosions: 100
+[14:18:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:18:05] [Server thread/ERROR]: Could not add item GOLDEN_NUGGETS to altItemDespawnRateMap: No enum constant org.bukkit.Material.GOLDEN_NUGGETS
+[14:18:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[14:18:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[14:18:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[14:18:05] [Server thread/INFO]: View Distance: 12
+[14:18:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[14:18:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[14:18:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[14:18:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[14:18:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[14:18:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[14:18:05] [Server thread/INFO]: Mob Spawn Range: 8
+[14:18:05] [Server thread/INFO]: Experience Merge Radius: -1.0
+[14:18:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[14:18:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[14:18:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[14:18:05] [Server thread/INFO]: Max TNT Explosions: 100
+[14:18:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[14:18:05] [Server thread/ERROR]: Could not add item GOLDEN_NUGGETS to altItemDespawnRateMap: No enum constant org.bukkit.Material.GOLDEN_NUGGETS
+[14:18:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:18:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world
+[14:18:05] [Server thread/INFO]: Time elapsed: 298 ms
+[14:18:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:18:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world_nether
+[14:18:05] [Server thread/INFO]: Time elapsed: 79 ms
+[14:18:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:18:05] [Server thread/INFO]: Loaded 0 spawn chunks for world world_the_end
+[14:18:05] [Server thread/INFO]: Time elapsed: 131 ms
+[14:18:05] [Server thread/INFO]: [BroulfFreeze] Enabling BroulfFreeze v1.0
+[14:18:05] [Server thread/INFO]: Welcome to BroulfFreeze 1.0
+[14:18:05] [Server thread/INFO]: [SetHome] Enabling SetHome v5.1.2*
+[14:18:05] [Server thread/INFO]: [OpenInv] Enabling OpenInv v4.1.5
+[14:18:05] [Server thread/INFO]: Running delayed init tasks
+[14:18:05] [Server thread/INFO]: Done (8.673s)! For help, type "help"
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 11. When Paper for Minecraft 1.17 is
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 11 will
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_252
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java11
+[14:18:05] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[14:18:06] [Server thread/INFO]: Timings Reset
+[14:18:15] [User Authenticator #1/INFO]: UUID of player Broulf is d585e28c-2e19-4e4a-996a-074ddf795d35
+[14:18:15] [Server thread/INFO]: Disconnecting com.mojang.authlib.GameProfile@19204bef[id=d585e28c-2e19-4e4a-996a-074ddf795d35,name=Broulf,properties={textures=[com.mojang.authlib.properties.Property@10633ea0]},legacy=false] (/130.70.18.200:63697): You are not whitelisted on this server!
+[14:18:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@19204bef[id=d585e28c-2e19-4e4a-996a-074ddf795d35,name=Broulf,properties={textures=[com.mojang.authlib.properties.Property@10633ea0]},legacy=false] (/130.70.18.200:63697) lost connection: You are not whitelisted on this server!
+[14:18:33] [Server thread/INFO]: Whitelist is now turned off
+[14:18:38] [Server thread/INFO]: Reloaded the whitelist
+[14:18:56] [User Authenticator #1/INFO]: UUID of player Broulf is d585e28c-2e19-4e4a-996a-074ddf795d35
+[14:18:56] [Server thread/WARN]: Using offline mode UUID file for player Broulf as it is the only copy we can find.
+[14:18:56] [Server thread/INFO]: Broulf joined the game
+[14:18:56] [Server thread/INFO]: Broulf has made the advancement [Suit Up]
+[14:18:56] [Server thread/INFO]: Broulf has made the advancement [Isn't It Iron Pick]
+[14:18:56] [Server thread/INFO]: Broulf[/130.70.18.200:63729] logged in with entity id 178 at ([world]6.612171895101281, 64.0, 604.4342152518755)
+[14:21:29] [Server thread/INFO]: Broulf has made the advancement [A Seedy Place]
+[14:23:21] [Server thread/INFO]: Broulf has made the advancement [Sweet Dreams]
+[14:23:32] [Server thread/INFO]: Broulf has made the advancement [Monster Hunter]
+[14:24:08] [Server thread/INFO]: Broulf has made the advancement [Acquire Hardware]
+[14:24:51] [Server thread/INFO]: Broulf has made the advancement [Stone Age]
+[14:29:15] [User Authenticator #2/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[14:29:15] [Server thread/WARN]: Using offline mode UUID file for player Sparkhelm as it is the only copy we can find.
+[14:29:15] [Server thread/INFO]: Sparkhelm joined the game
+[14:29:15] [Server thread/INFO]: Sparkhelm[/174.64.172.46:49623] logged in with entity id 1661 at ([world]-566.4279385921631, 64.0, 294.6521487901757)
+[14:29:54] [User Authenticator #2/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[14:29:54] [Server thread/INFO]: AverageCob joined the game
+[14:29:54] [Server thread/INFO]: AverageCob[/99.83.26.159:54890] logged in with entity id 2140 at ([world]-125.5, 64.0, 156.5)
+[14:30:50] [Server thread/INFO]: Broulf lost connection: Disconnected
+[14:30:50] [Server thread/INFO]: Broulf left the game
+[14:32:00] [Async Chat Thread - #0/INFO]: <Sparkhelm> -534 292
+[14:35:01] [User Authenticator #3/INFO]: UUID of player Broulf is d585e28c-2e19-4e4a-996a-074ddf795d35
+[14:35:01] [Server thread/INFO]: Broulf joined the game
+[14:35:01] [Server thread/INFO]: Broulf[/130.70.18.200:64559] logged in with entity id 4152 at ([world]-19.29967724815409, 64.0, 592.0264124694692)
+[14:35:51] [Server thread/INFO]: Broulf lost connection: Disconnected
+[14:35:51] [Server thread/INFO]: Broulf left the game
+[14:36:10] [Server thread/INFO]: Sparkhelm has made the advancement [Monster Hunter]
+[14:36:37] [Server thread/INFO]: AverageCob issued server command: /
+[14:37:54] [Server thread/INFO]: AverageCob issued server command: /sethome
+[14:39:18] [User Authenticator #4/INFO]: UUID of player GmoneyKat is b5725c16-98b1-4325-960c-4d47ffd74371
+[14:39:18] [Server thread/WARN]: Using offline mode UUID file for player GmoneyKat as it is the only copy we can find.
+[14:39:18] [Server thread/INFO]: GmoneyKat joined the game
+[14:39:18] [Server thread/INFO]: GmoneyKat has made the advancement [Suit Up]
+[14:39:18] [Server thread/INFO]: GmoneyKat has made the advancement [Stone Age]
+[14:39:18] [Server thread/INFO]: GmoneyKat[/174.64.168.41:53867] logged in with entity id 5989 at ([world]1036.588777585535, 69.0, -147.81479406748633)
+[14:40:15] [User Authenticator #4/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[14:40:15] [Server thread/WARN]: Using offline mode UUID file for player DangerNoodle02 as it is the only copy we can find.
+[14:40:15] [Server thread/INFO]: DangerNoodle02 joined the game
+[14:40:15] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53021] logged in with entity id 6818 at ([world]1268.847069858361, 56.5625, -32.27027214086715)
+[14:41:00] [Server thread/WARN]: DangerNoodle02 was kicked due to keepalive timeout!
+[14:41:00] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[14:41:00] [Server thread/INFO]: DangerNoodle02 left the game
+[14:41:09] [User Authenticator #4/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[14:41:09] [Server thread/INFO]: DangerNoodle02 joined the game
+[14:41:09] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53027] logged in with entity id 7301 at ([world]1264.04285057453, 55.0, -29.915171896186113)
+[14:41:41] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[14:41:41] [Server thread/INFO]: DangerNoodle02 left the game
+[14:41:45] [User Authenticator #4/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[14:41:45] [Server thread/INFO]: DangerNoodle02 joined the game
+[14:41:45] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53033] logged in with entity id 7547 at ([world]1264.04285057453, 55.0, -29.915171896186113)
+[14:41:52] [User Authenticator #4/INFO]: UUID of player BeanuttPutter is 1f0ea0f4-0eaa-40b9-a582-eba09cfbfa56
+[14:41:52] [Server thread/WARN]: Using offline mode UUID file for player BeanuttPutter as it is the only copy we can find.
+[14:41:52] [Server thread/INFO]: BeanuttPutter joined the game
+[14:41:52] [Server thread/INFO]: BeanuttPutter has made the advancement [Acquire Hardware]
+[14:41:52] [Server thread/INFO]: BeanuttPutter has made the advancement [Stone Age]
+[14:41:52] [Server thread/INFO]: BeanuttPutter has made the advancement [Isn't It Iron Pick]
+[14:41:52] [Server thread/INFO]: BeanuttPutter[/107.131.18.138:53927] logged in with entity id 7605 at ([world]-184.3852902389779, 11.0, -16.10038325991904)
+[14:42:05] [Server thread/INFO]: BeanuttPutter suffocated in a wall
+[14:42:30] [Server thread/WARN]: DangerNoodle02 was kicked due to keepalive timeout!
+[14:42:30] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[14:42:30] [Server thread/INFO]: DangerNoodle02 left the game
+[14:42:36] [Server thread/INFO]: AverageCob has made the advancement [Stone Age]
+[14:42:37] [Server thread/WARN]: BeanuttPutter was kicked due to keepalive timeout!
+[14:42:37] [Server thread/INFO]: BeanuttPutter lost connection: Timed out
+[14:42:37] [Server thread/INFO]: BeanuttPutter left the game
+[14:42:59] [Server thread/INFO]: GmoneyKat has made the advancement [Acquire Hardware]
+[14:43:15] [User Authenticator #5/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[14:43:15] [Server thread/INFO]: DangerNoodle02 joined the game
+[14:43:15] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53038] logged in with entity id 8687 at ([world]1254.2436878082515, 65.0, -6.142835391651726)
+[14:43:22] [User Authenticator #5/INFO]: UUID of player BeanuttPutter is 1f0ea0f4-0eaa-40b9-a582-eba09cfbfa56
+[14:43:22] [Server thread/INFO]: BeanuttPutter joined the game
+[14:43:22] [Server thread/INFO]: BeanuttPutter[/107.131.18.138:53940] logged in with entity id 8735 at ([world]-184.30000001192093, 11.0, -15.499205026347594)
+[14:44:00] [Server thread/WARN]: DangerNoodle02 was kicked due to keepalive timeout!
+[14:44:00] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[14:44:00] [Server thread/INFO]: DangerNoodle02 left the game
+[14:44:22] [Server thread/WARN]: BeanuttPutter was kicked due to keepalive timeout!
+[14:44:22] [Server thread/INFO]: BeanuttPutter lost connection: Timed out
+[14:44:22] [Server thread/INFO]: BeanuttPutter left the game
+[14:44:48] [User Authenticator #6/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[14:44:48] [Server thread/INFO]: DangerNoodle02 joined the game
+[14:44:48] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53064] logged in with entity id 9500 at ([world]1253.2233087309487, 66.0, -19.553837840584624)
+[14:45:15] [User Authenticator #6/INFO]: UUID of player BeanuttPutter is 1f0ea0f4-0eaa-40b9-a582-eba09cfbfa56
+[14:45:15] [Server thread/INFO]: BeanuttPutter joined the game
+[14:45:15] [Server thread/INFO]: BeanuttPutter[/107.131.18.138:53975] logged in with entity id 9892 at ([world]-127.3308117074324, 65.25220334025373, 155.04466817273226)
+[14:45:33] [Server thread/WARN]: DangerNoodle02 was kicked due to keepalive timeout!
+[14:45:33] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[14:45:33] [Server thread/INFO]: DangerNoodle02 left the game
+[14:46:00] [Server thread/WARN]: BeanuttPutter was kicked due to keepalive timeout!
+[14:46:00] [Server thread/INFO]: BeanuttPutter lost connection: Timed out
+[14:46:00] [Server thread/INFO]: BeanuttPutter left the game
+[14:46:06] [User Authenticator #6/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[14:46:06] [Server thread/INFO]: DangerNoodle02 joined the game
+[14:46:06] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53084] logged in with entity id 10564 at ([world]1251.7352225622903, 67.17675927506424, -35.67092824451976)
+[14:46:51] [Server thread/WARN]: DangerNoodle02 was kicked due to keepalive timeout!
+[14:46:51] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[14:46:51] [Server thread/INFO]: DangerNoodle02 left the game
+[14:47:27] [Server thread/INFO]: AverageCob was shot by Skeleton
+[14:47:38] [Server thread/INFO]: Sparkhelm was shot by Skeleton
+[14:47:49] [Server thread/INFO]: Sparkhelm issued server command: /home
+[14:48:13] [Server thread/INFO]: AverageCob issued server command: /home
+[14:48:40] [Server thread/INFO]: AverageCob was slain by Zombie
+[14:50:07] [Server thread/INFO]: AverageCob issued server command: /home
+[14:50:49] [Server thread/INFO]: Sparkhelm issued server command: /sethome:home
+[14:50:54] [Server thread/INFO]: Sparkhelm issued server command: /sethome
+[14:51:27] [Server thread/INFO]: AverageCob lost connection: Disconnected
+[14:51:27] [Server thread/INFO]: AverageCob left the game
+[14:51:33] [User Authenticator #7/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[14:51:33] [Server thread/INFO]: AverageCob joined the game
+[14:51:33] [Server thread/INFO]: AverageCob[/99.83.26.159:55290] logged in with entity id 14518 at ([world]-565.7303304791826, 64.0, 312.61516480577365)
+[14:51:42] [Server thread/INFO]: Sparkhelm was slain by Zombie
+[14:51:51] [Server thread/INFO]: Sparkhelm issued server command: /home
+[14:51:53] [Server thread/INFO]: AverageCob was slain by Zombie
+[14:52:05] [Server thread/INFO]: AverageCob lost connection: Timed out
+[14:52:05] [Server thread/INFO]: AverageCob left the game
+[14:52:05] [Server thread/INFO]: GmoneyKat has made the advancement [Not Today, Thank You]
+[14:52:16] [Server thread/INFO]: Sparkhelm was slain by Zombie
+[14:52:30] [Server thread/INFO]: GmoneyKat has made the advancement [Monster Hunter]
+[14:52:41] [Server thread/INFO]: Sparkhelm issued server command: /home
+[14:53:05] [Server thread/INFO]: GmoneyKat was shot by Skeleton
+[14:54:17] [User Authenticator #8/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[14:54:17] [Server thread/WARN]: Using offline mode UUID file for player ThtGyVrThr as it is the only copy we can find.
+[14:54:17] [Server thread/INFO]: ThtGyVrThr joined the game
+[14:54:17] [Server thread/INFO]: ThtGyVrThr has made the advancement [Stone Age]
+[14:54:17] [Server thread/INFO]: ThtGyVrThr has made the advancement [Getting an Upgrade]
+[14:54:17] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57168] logged in with entity id 17871 at ([world]-5565.993870627874, 73.0, -1003.1416191456427)
+[14:54:48] [Server thread/INFO]: ThtGyVrThr has made the advancement [Sweet Dreams]
+[14:55:02] [Server thread/WARN]: ThtGyVrThr was kicked due to keepalive timeout!
+[14:55:02] [Server thread/INFO]: ThtGyVrThr lost connection: Timed out
+[14:55:02] [Server thread/INFO]: ThtGyVrThr left the game
+[14:55:17] [Server thread/INFO]: GmoneyKat has made the advancement [The Parrots and the Bats]
+[14:55:42] [User Authenticator #9/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[14:55:42] [Server thread/INFO]: AverageCob joined the game
+[14:55:42] [Server thread/INFO]: AverageCob[/99.83.26.159:55339] logged in with entity id 18678 at ([world]-565.7303304791826, 64.0, 312.61516480577365)
+[14:55:57] [User Authenticator #9/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[14:55:58] [Server thread/INFO]: ThtGyVrThr joined the game
+[14:55:58] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57171] logged in with entity id 18752 at ([world]-5626.444472522556, 66.0, -1019.5)
+[14:56:27] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[14:56:27] [Server thread/INFO]: AverageCob lost connection: Timed out
+[14:56:27] [Server thread/INFO]: AverageCob left the game
+[14:56:38] [User Authenticator #9/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[14:56:39] [Server thread/INFO]: AverageCob joined the game
+[14:56:39] [Server thread/INFO]: AverageCob[/99.83.26.159:55353] logged in with entity id 19281 at ([world]-565.7303304791826, 64.0, 312.61516480577365)
+[14:56:43] [Server thread/WARN]: ThtGyVrThr was kicked due to keepalive timeout!
+[14:56:43] [Server thread/INFO]: ThtGyVrThr lost connection: Timed out
+[14:56:43] [Server thread/INFO]: ThtGyVrThr left the game
+[14:57:24] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[14:57:24] [Server thread/INFO]: AverageCob lost connection: Timed out
+[14:57:24] [Server thread/INFO]: AverageCob left the game
+[14:57:27] [User Authenticator #9/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[14:57:27] [Server thread/INFO]: ThtGyVrThr joined the game
+[14:57:27] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57188] logged in with entity id 19511 at ([world]-5627.928949988003, 66.0, -1020.7165298041723)
+[14:57:38] [User Authenticator #9/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[14:57:38] [Server thread/INFO]: AverageCob joined the game
+[14:57:38] [Server thread/INFO]: AverageCob[/99.83.26.159:55366] logged in with entity id 19880 at ([world]-565.7303304791826, 64.0, 312.61516480577365)
+[14:58:08] [Server thread/INFO]: Sparkhelm has made the advancement [Stone Age]
+[14:58:12] [Server thread/WARN]: ThtGyVrThr was kicked due to keepalive timeout!
+[14:58:12] [Server thread/INFO]: ThtGyVrThr lost connection: Timed out
+[14:58:12] [Server thread/INFO]: ThtGyVrThr left the game
+[14:58:23] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[14:58:23] [Server thread/INFO]: AverageCob lost connection: Timed out
+[14:58:23] [Server thread/INFO]: AverageCob left the game
+[14:58:34] [User Authenticator #9/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[14:58:34] [Server thread/INFO]: ThtGyVrThr joined the game
+[14:58:34] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57204] logged in with entity id 20201 at ([world]-5628.705453584536, 65.0, -1015.6112628146785)
+[14:58:45] [Server thread/INFO]: ThtGyVrThr lost connection: Disconnected
+[14:58:45] [Server thread/INFO]: ThtGyVrThr left the game
+[14:58:58] [Server thread/INFO]: Sparkhelm has made the advancement [Getting an Upgrade]
+[14:59:24] [User Authenticator #9/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[14:59:24] [Server thread/INFO]: ThtGyVrThr joined the game
+[14:59:24] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57418] logged in with entity id 20719 at ([world]-5626.022459046073, 65.0, -1014.9544098621504)
+[14:59:24] [User Authenticator #10/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[14:59:24] [Server thread/INFO]: AverageCob joined the game
+[14:59:24] [Server thread/INFO]: AverageCob[/99.83.26.159:55492] logged in with entity id 20763 at ([world]-565.7303304791826, 64.0, 312.61516480577365)
+[15:00:09] [Server thread/WARN]: ThtGyVrThr was kicked due to keepalive timeout!
+[15:00:09] [Server thread/INFO]: ThtGyVrThr lost connection: Timed out
+[15:00:09] [Server thread/INFO]: ThtGyVrThr left the game
+[15:00:09] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:00:09] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:00:09] [Server thread/INFO]: AverageCob left the game
+[15:00:43] [User Authenticator #11/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:00:43] [Server thread/INFO]: AverageCob joined the game
+[15:00:43] [Server thread/INFO]: AverageCob[/99.83.26.159:55530] logged in with entity id 21603 at ([world]-565.7303304791826, 64.0, 312.61516480577365)
+[15:00:57] [User Authenticator #11/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[15:00:57] [Server thread/INFO]: ThtGyVrThr joined the game
+[15:00:57] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57427] logged in with entity id 21689 at ([world]-5624.794638203862, 69.0, -1009.7264842441217)
+[15:01:42] [Server thread/WARN]: ThtGyVrThr was kicked due to keepalive timeout!
+[15:01:42] [Server thread/INFO]: ThtGyVrThr lost connection: Timed out
+[15:01:42] [Server thread/INFO]: ThtGyVrThr left the game
+[15:02:02] [Server thread/INFO]: AverageCob issued server command: /home
+[15:02:27] [User Authenticator #12/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[15:02:27] [Server thread/INFO]: ThtGyVrThr joined the game
+[15:02:27] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57437] logged in with entity id 22648 at ([world]-5580.310790353532, 70.24918707874468, -1015.8301411911777)
+[15:02:49] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:02:49] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:02:49] [Server thread/INFO]: AverageCob left the game
+[15:03:41] [User Authenticator #13/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:03:41] [Server thread/INFO]: AverageCob joined the game
+[15:03:41] [Server thread/INFO]: AverageCob[/99.83.26.159:55571] logged in with entity id 23358 at ([world]-567.2923685987038, 63.15312379606114, 295.272048445263)
+[15:06:11] [User Authenticator #14/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[15:06:11] [Server thread/INFO]: DangerNoodle02 joined the game
+[15:06:11] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53619] logged in with entity id 24537 at ([world]1245.2391203525062, 66.0, -30.38543073006738)
+[15:06:56] [Server thread/WARN]: DangerNoodle02 was kicked due to keepalive timeout!
+[15:06:56] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[15:06:56] [Server thread/INFO]: DangerNoodle02 left the game
+[15:07:05] [User Authenticator #14/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[15:07:05] [Server thread/INFO]: DangerNoodle02 joined the game
+[15:07:05] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53624] logged in with entity id 25002 at ([world]1259.4313604907197, 59.0, -29.49231241164207)
+[15:07:12] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
+[15:07:12] [Server thread/INFO]: DangerNoodle02 left the game
+[15:07:17] [User Authenticator #14/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[15:07:17] [Server thread/INFO]: DangerNoodle02 joined the game
+[15:07:17] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:53632] logged in with entity id 25162 at ([world]1259.4313604907197, 59.0, -29.49231241164207)
+[15:08:45] [Server thread/INFO]: DangerNoodle02 has made the advancement [Acquire Hardware]
+[15:09:07] [Server thread/INFO]: DangerNoodle02 has made the advancement [Isn't It Iron Pick]
+[15:09:11] [Server thread/INFO]: AverageCob has made the advancement [Getting an Upgrade]
+[15:10:52] [Server thread/INFO]: DangerNoodle02 has made the advancement [Stone Age]
+[15:12:58] [Server thread/INFO]: AverageCob has made the advancement [Acquire Hardware]
+[15:15:30] [Server thread/INFO]: AverageCob has made the advancement [A Seedy Place]
+[15:18:04] [Server thread/INFO]: GmoneyKat issued server command: /sethome:home
+[15:18:10] [Server thread/INFO]: GmoneyKat issued server command: /sethome
+[15:18:14] [Server thread/INFO]: GmoneyKat issued server command: /home
+[15:19:50] [Server thread/INFO]: Sparkhelm has made the advancement [Acquire Hardware]
+[15:20:47] [Server thread/INFO]: GmoneyKat has made the advancement [A Seedy Place]
+[15:24:25] [Server thread/INFO]: Sparkhelm has made the advancement [Isn't It Iron Pick]
+[15:28:05] [Server thread/INFO]: AverageCob has made the advancement [Monster Hunter]
+[15:29:06] [Server thread/INFO]: ThtGyVrThr lost connection: Disconnected
+[15:29:06] [Server thread/INFO]: ThtGyVrThr left the game
+[15:31:28] [Server thread/INFO]: AverageCob has made the advancement [Isn't It Iron Pick]
+[15:31:38] [Server thread/INFO]: DangerNoodle02 has made the advancement [Monster Hunter]
+[15:33:33] [Server thread/INFO]: DangerNoodle02 has made the advancement [Diamonds!]
+[15:34:24] [Server thread/INFO]: DangerNoodle02 burned to death
+[15:35:11] [User Authenticator #15/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[15:35:12] [Server thread/INFO]: ThtGyVrThr joined the game
+[15:35:12] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57697] logged in with entity id 41562 at ([world]-5626.5, 66.0, -1019.5)
+[15:35:57] [Server thread/WARN]: ThtGyVrThr was kicked due to keepalive timeout!
+[15:35:57] [Server thread/INFO]: ThtGyVrThr lost connection: Timed out
+[15:35:57] [Server thread/INFO]: ThtGyVrThr left the game
+[15:36:31] [User Authenticator #16/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[15:36:31] [Server thread/INFO]: ThtGyVrThr joined the game
+[15:36:31] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57699] logged in with entity id 42375 at ([world]-5587.336819372438, 69.0, -1010.4552088341159)
+[15:39:17] [Server thread/INFO]: AverageCob was shot by Skeleton
+[15:39:41] [Server thread/INFO]: DangerNoodle02 has made the advancement [Sweet Dreams]
+[15:39:56] [Server thread/INFO]: DangerNoodle02 issued server command: /sethome
+[15:40:02] [Server thread/INFO]: AverageCob issued server command: /home
+[15:40:38] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:40:38] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:40:38] [Server thread/INFO]: AverageCob left the game
+[15:41:14] [User Authenticator #17/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:41:14] [Server thread/INFO]: AverageCob joined the game
+[15:41:14] [Server thread/INFO]: AverageCob[/99.83.26.159:55992] logged in with entity id 45236 at ([world]-567.2923685987038, 64.0, 295.272048445263)
+[15:41:45] [Server thread/INFO]: AverageCob issued server command: /set
+[15:41:49] [Server thread/INFO]: AverageCob issued server command: /se
+[15:41:54] [Server thread/INFO]: AverageCob issued server command: /sethome
+[15:41:59] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:41:59] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:41:59] [Server thread/INFO]: AverageCob left the game
+[15:42:28] [User Authenticator #18/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:42:28] [Server thread/INFO]: AverageCob joined the game
+[15:42:28] [Server thread/INFO]: AverageCob[/99.83.26.159:56002] logged in with entity id 46229 at ([world]-557.6171800640705, 64.0, 305.66853853516113)
+[15:42:43] [Server thread/INFO]: DangerNoodle02 has made the advancement [Enchanter]
+[15:43:13] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:43:13] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:43:13] [Server thread/INFO]: AverageCob left the game
+[15:43:32] [User Authenticator #19/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:43:32] [Server thread/INFO]: AverageCob joined the game
+[15:43:32] [Server thread/INFO]: AverageCob[/99.83.26.159:56033] logged in with entity id 46877 at ([world]-561.4857067194474, 64.0, 306.9146169577045)
+[15:45:07] [Server thread/INFO]: AverageCob lost connection: Disconnected
+[15:45:07] [Server thread/INFO]: AverageCob left the game
+[15:45:42] [User Authenticator #20/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:45:42] [Server thread/INFO]: AverageCob joined the game
+[15:45:42] [Server thread/INFO]: AverageCob[/99.83.26.159:56073] logged in with entity id 48865 at ([world]-563.1405148902951, 64.0, 296.28726424871337)
+[15:46:27] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:46:27] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:46:27] [Server thread/INFO]: AverageCob left the game
+[15:47:32] [User Authenticator #21/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:47:32] [Server thread/INFO]: AverageCob joined the game
+[15:47:32] [Server thread/INFO]: AverageCob[/99.83.26.159:56111] logged in with entity id 51304 at ([world]-566.5011580996123, 64.0, 302.8383746771928)
+[15:48:17] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:48:17] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:48:17] [Server thread/INFO]: AverageCob left the game
+[15:48:43] [User Authenticator #22/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[15:48:43] [Server thread/INFO]: AverageCob joined the game
+[15:48:43] [Server thread/INFO]: AverageCob[/99.83.26.159:56117] logged in with entity id 52487 at ([world]-566.5011580996123, 64.0, 302.8383746771928)
+[15:50:28] [Server thread/INFO]: Sparkhelm hit the ground too hard
+[15:50:46] [Server thread/INFO]: Sparkhelm issued server command: /home
+[15:51:05] [Server thread/INFO]: AverageCob was slain by Zombie
+[15:51:10] [Server thread/INFO]: Sparkhelm was slain by Zombie
+[15:51:33] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[15:51:33] [Server thread/INFO]: Sparkhelm left the game
+[15:51:35] [User Authenticator #23/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[15:51:35] [Server thread/INFO]: Sparkhelm joined the game
+[15:51:35] [Server thread/INFO]: Sparkhelm[/174.64.172.46:50506] logged in with entity id 55424 at ([world]-561.5061531904623, 64.0, 301.81344213728175)
+[15:51:58] [Server thread/WARN]: AverageCob was kicked due to keepalive timeout!
+[15:51:58] [Server thread/INFO]: AverageCob lost connection: Timed out
+[15:51:58] [Server thread/INFO]: AverageCob left the game
+[15:52:05] [Server thread/INFO]: Sparkhelm issued server command: /home
+[15:57:50] [User Authenticator #24/INFO]: UUID of player JJshocker0528 is d641faf8-0e61-4799-a23e-44cfed2aa55c
+[15:57:50] [Server thread/INFO]: JJshocker0528 joined the game
+[15:57:50] [Server thread/INFO]: JJshocker0528[/70.188.104.32:55472] logged in with entity id 60674 at ([world]-128.5, 64.0, 147.5)
+[15:57:55] [Server thread/INFO]: DangerNoodle02 was slain by Zombie
+[16:00:24] [Server thread/INFO]: JJshocker0528 has made the advancement [Monster Hunter]
+[16:00:46] [User Authenticator #25/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[16:00:46] [Server thread/INFO]: AverageCob joined the game
+[16:00:46] [Server thread/INFO]: AverageCob[/99.83.26.159:56339] logged in with entity id 64061 at ([world]-127.5, 64.0, 155.5)
+[16:00:54] [Server thread/INFO]: JJshocker0528 has made the advancement [Stone Age]
+[16:01:09] [Server thread/INFO]: AverageCob issued server command: /home
+[16:01:19] [Server thread/INFO]: JJshocker0528 has made the advancement [Getting an Upgrade]
+[16:06:59] [Server thread/INFO]: JJshocker0528 issued server command: /help
+[16:09:19] [Server thread/INFO]: DangerNoodle02 has made the advancement [Suit Up]
+[16:09:26] [Server thread/INFO]: ThtGyVrThr has made the advancement [Monster Hunter]
+[16:10:29] [Server thread/INFO]: DangerNoodle02 has made the advancement [A Seedy Place]
+[16:12:40] [Server thread/INFO]: JJshocker0528 has made the advancement [Sweet Dreams]
+[16:13:03] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
+[16:13:03] [Server thread/INFO]: GmoneyKat left the game
+[16:13:03] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[16:13:03] [Server thread/INFO]: Sparkhelm left the game
+[16:13:03] [Server thread/INFO]: AverageCob lost connection: Disconnected
+[16:13:03] [Server thread/INFO]: AverageCob left the game
+[16:13:03] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
+[16:13:03] [Server thread/INFO]: DangerNoodle02 left the game
+[16:13:03] [Server thread/INFO]: ThtGyVrThr lost connection: Disconnected
+[16:13:03] [Server thread/INFO]: ThtGyVrThr left the game
+[16:13:12] [User Authenticator #26/INFO]: Disconnecting com.mojang.authlib.GameProfile@48a4268c[id=<null>,name=ThtGyVrThr,properties={},legacy=false] (/138.47.224.211:57890): Authentication servers are down. Please try again later, sorry!
+[16:13:12] [User Authenticator #26/ERROR]: Couldn't verify username because servers are unavailable
+[16:13:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@48a4268c[id=<null>,name=ThtGyVrThr,properties={},legacy=false] (/138.47.224.211:57890) lost connection: Authentication servers are down. Please try again later, sorry!
+[16:13:14] [Async Chat Thread - #1/INFO]: <JJshocker0528> woah
+[16:13:15] [User Authenticator #26/INFO]: Disconnecting com.mojang.authlib.GameProfile@4663d1e8[id=<null>,name=Sparkhelm,properties={},legacy=false] (/174.64.172.46:50642): Authentication servers are down. Please try again later, sorry!
+[16:13:15] [User Authenticator #26/ERROR]: Couldn't verify username because servers are unavailable
+[16:13:15] [Server thread/INFO]: com.mojang.authlib.GameProfile@4663d1e8[id=<null>,name=Sparkhelm,properties={},legacy=false] (/174.64.172.46:50642) lost connection: Authentication servers are down. Please try again later, sorry!
+[16:13:29] [User Authenticator #26/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[16:13:29] [Server thread/INFO]: Sparkhelm joined the game
+[16:13:29] [Server thread/INFO]: Sparkhelm[/174.64.172.46:50645] logged in with entity id 75542 at ([world]-569.3183322767019, 60.92159999847412, 306.32345137653715)
+[16:13:36] [User Authenticator #26/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[16:13:36] [Server thread/INFO]: DangerNoodle02 joined the game
+[16:13:36] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:54392] logged in with entity id 75802 at ([world]1264.2611669869193, 55.0, -32.023593752542965)
+[16:13:44] [Async Chat Thread - #1/INFO]: <JJshocker0528> that was weird
+[16:13:48] [User Authenticator #26/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[16:13:48] [Server thread/INFO]: ThtGyVrThr joined the game
+[16:13:48] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:57894] logged in with entity id 76092 at ([world]-5610.300000011921, 66.0, -1000.6112949536583)
+[16:13:52] [User Authenticator #26/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[16:13:53] [Server thread/INFO]: AverageCob joined the game
+[16:13:53] [Server thread/INFO]: AverageCob[/99.83.26.159:56409] logged in with entity id 76315 at ([world]-510.47381197315474, 71.20038553671485, 305.6674437288824)
+[16:14:02] [User Authenticator #26/INFO]: UUID of player GmoneyKat is b5725c16-98b1-4325-960c-4d47ffd74371
+[16:14:02] [Server thread/INFO]: GmoneyKat joined the game
+[16:14:02] [Server thread/INFO]: GmoneyKat[/174.64.168.41:54212] logged in with entity id 76465 at ([world]1110.294675673689, 69.01865970983172, -100.46265498767778)
+[16:14:14] [Server thread/WARN]: Sparkhelm was kicked due to keepalive timeout!
+[16:14:14] [Server thread/INFO]: Sparkhelm lost connection: Timed out
+[16:14:14] [Server thread/INFO]: Sparkhelm left the game
+[16:14:21] [Server thread/WARN]: DangerNoodle02 was kicked due to keepalive timeout!
+[16:14:21] [Server thread/INFO]: DangerNoodle02 lost connection: Timed out
+[16:14:21] [Server thread/INFO]: DangerNoodle02 left the game
+[16:14:24] [Server thread/INFO]: AverageCob lost connection: Timed out
+[16:14:24] [Server thread/INFO]: AverageCob left the game
+[16:14:32] [User Authenticator #26/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[16:14:32] [Server thread/INFO]: AverageCob joined the game
+[16:14:32] [Server thread/INFO]: AverageCob[/99.83.26.159:56418] logged in with entity id 76909 at ([world]-510.47381197315474, 71.04515353219824, 305.6674437288824)
+[16:14:33] [Server thread/WARN]: ThtGyVrThr was kicked due to keepalive timeout!
+[16:14:33] [Server thread/INFO]: ThtGyVrThr lost connection: Timed out
+[16:14:33] [Server thread/INFO]: ThtGyVrThr left the game
+[16:14:49] [User Authenticator #26/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[16:14:49] [Server thread/INFO]: DangerNoodle02 joined the game
+[16:14:49] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:54413] logged in with entity id 77034 at ([world]1264.0520239398545, 55.0, -29.606603017096838)
+[16:15:03] [Server thread/INFO]: Stopping the server
+[16:15:03] [Server thread/INFO]: Stopping server
+[16:15:03] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.5
+[16:15:03] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
+[16:15:03] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[16:15:03] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
+[16:15:03] [Server thread/INFO]: [BroulfFreeze] Disabling BroulfFreeze v1.0
+[16:15:03] [Server thread/INFO]: BroulfFreeze  1.0 has been disabled.
+[16:15:03] [Server thread/INFO]: Saving players
+[16:15:03] [Server thread/INFO]: JJshocker0528 lost connection: Server closed
+[16:15:03] [Server thread/INFO]: JJshocker0528 left the game
+[16:15:03] [Server thread/INFO]: GmoneyKat lost connection: Server closed
+[16:15:03] [Server thread/INFO]: GmoneyKat left the game
+[16:15:03] [Server thread/INFO]: AverageCob lost connection: Server closed
+[16:15:03] [Server thread/INFO]: AverageCob left the game
+[16:15:03] [Server thread/INFO]: DangerNoodle02 lost connection: Server closed
+[16:15:03] [Server thread/INFO]: DangerNoodle02 left the game
+[16:15:03] [Server thread/INFO]: Saving worlds
+[16:15:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:15:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:15:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:15:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:15:06] [Server thread/INFO]: Flushing Chunk IO
+[16:15:06] [Server thread/INFO]: Closing Thread Pool
+[16:15:06] [Server thread/INFO]: Closing Server
