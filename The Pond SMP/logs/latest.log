@@ -1,24 +1,538 @@
-[22:28:14] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22:28:15] [main/INFO]: Reloading ResourceManager: Default, bukkit, afk display v1.1.0, anti creeper grief v1.1.0, double shulker shells v1.3.0, dragon drops v1.3.0, fast leaf decay v2.0.3, larger phantoms v1.2.1, multiplayer sleep v2.5.2
-[22:28:15] [Worker-Main-4/INFO]: Loaded 7 recipes
-[22:28:16] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/ender_dragon}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/ender_dragon
-[22:28:16] [Worker-Main-4/WARN]: Found validation problem in {minecraft:entities/shulker}.pools[1].entries[0]: Unknown loot table called minecraft:entities/reference/mmh/shulker
-[22:28:16] [Server thread/INFO]: Starting minecraft server version 1.16.4
-[22:28:16] [Server thread/INFO]: Loading properties
-[22:28:16] [Server thread/INFO]: This server is running Paper version git-Paper-414 (MC: 1.16.4) (Implementing API version 1.16.4-R0.1-SNAPSHOT)
-[22:28:16] [Server thread/INFO]: Debug logging is disabled
-[22:28:16] [Server thread/INFO]: Using 4 threads for Netty based IO
-[22:28:16] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[22:28:16] [Server thread/INFO]: Default game type: SURVIVAL
-[22:28:16] [Server thread/INFO]: Generating keypair
-[22:28:16] [Server thread/INFO]: Starting Minecraft server on *:139
-[22:28:16] [Server thread/INFO]: Using default channel type
-[22:28:17] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[22:28:17] [Server thread/WARN]: The exception was: java.net.BindException: Address already in use: bind
-[22:28:17] [Server thread/WARN]: Perhaps a server is already running on that port?
-[22:28:17] [Server thread/INFO]: Stopping server
-[22:28:17] [Server thread/INFO]: Saving players
-[22:28:17] [Server thread/INFO]: Saving worlds
-[22:28:17] [Server thread/INFO]: Flushing Chunk IO
-[22:28:17] [Server thread/INFO]: Closing Thread Pool
-[22:28:17] [Server thread/INFO]: Closing Server
+[00:09:51] [Server thread/INFO]: ThtGyVrThr has made the advancement [Isn't It Iron Pick]
+[00:11:26] [Server thread/INFO]: Sparkhelm has made the advancement [Diamonds!]
+[00:11:27] [Server thread/INFO]: AverageCob has made the advancement [Diamonds!]
+[00:11:53] [Server thread/INFO]: JJshocker0528 has made the advancement [We Need to Go Deeper]
+[00:14:31] [Server thread/INFO]: AverageCob issued server command: /home
+[00:14:32] [Server thread/WARN]: AverageCob moved too quickly! -35.525438586546784,20.0,10.658348983051553
+[00:14:53] [Server thread/INFO]: AverageCob issued server command: /set
+[00:15:05] [Server thread/INFO]: AverageCob issued server command: /sethome:home
+[00:15:13] [Server thread/INFO]: AverageCob issued server command: /sethome
+[00:15:19] [Server thread/INFO]: AverageCob issued server command: /home
+[00:21:17] [Server thread/INFO]: JJshocker0528 was impaled by Drowned
+[00:25:17] [Server thread/INFO]: Sparkhelm issued server command: /home
+[00:25:24] [Server thread/INFO]: Sparkhelm issued server command: /sethome
+[00:27:12] [Server thread/INFO]: AverageCob issued server command: /home
+[00:32:37] [User Authenticator #5/INFO]: UUID of player Broulf is d585e28c-2e19-4e4a-996a-074ddf795d35
+[00:32:38] [Server thread/INFO]: Broulf lost connection: You logged in from another location
+[00:32:38] [Server thread/INFO]: Broulf left the game
+[00:32:38] [Server thread/INFO]: Broulf joined the game
+[00:32:38] [Server thread/INFO]: Broulf[/70.188.104.32:55519] logged in with entity id 68904 at ([world]-9.699999988079071, 60.0, 609.6999999880791)
+[00:33:15] [Server thread/INFO]: Broulf issued server command: /tps
+[00:33:27] [Server thread/INFO]: Broulf issued server command: /op GmoneyKat
+[00:33:27] [Server thread/INFO]: [Broulf: Made GmoneyKat a server operator]
+[00:33:37] [Async Chat Thread - #0/INFO]: <Broulf> Server doing fine?
+[00:33:41] [Async Chat Thread - #0/INFO]: <Broulf> @Luke
+[00:33:47] [Async Chat Thread - #0/INFO]: <Sparkhelm> yeee
+[00:33:55] [Async Chat Thread - #0/INFO]: <ThtGyVrThr> its ok
+[00:35:01] [Server thread/INFO]: AverageCob has made the advancement [Sweet Dreams]
+[00:35:20] [Server thread/INFO]: Broulf lost connection: Disconnected
+[00:35:20] [Server thread/INFO]: Broulf left the game
+[00:39:26] [Server thread/INFO]: com.mojang.authlib.GameProfile@2cdadbbc[id=<null>,name=BeanuttPutter,properties={},legacy=false] (/107.131.18.138:56865) lost connection: Disconnected
+[00:39:30] [User Authenticator #6/INFO]: UUID of player BeanuttPutter is 1f0ea0f4-0eaa-40b9-a582-eba09cfbfa56
+[00:39:31] [Server thread/INFO]: BeanuttPutter joined the game
+[00:39:31] [Server thread/INFO]: BeanuttPutter[/107.131.18.138:56869] logged in with entity id 72554 at ([world]-138.0584762891185, 70.0, 188.0989178366742)
+[00:39:59] [User Authenticator #6/INFO]: UUID of player GmoneyKat is b5725c16-98b1-4325-960c-4d47ffd74371
+[00:39:59] [Server thread/INFO]: GmoneyKat joined the game
+[00:39:59] [Server thread/INFO]: GmoneyKat[/174.64.168.41:55524] logged in with entity id 72957 at ([world]1111.7334688548415, 64.0, -105.90463486368061)
+[00:41:46] [Server thread/INFO]: BeanuttPutter lost connection: Disconnected
+[00:41:46] [Server thread/INFO]: BeanuttPutter left the game
+[00:43:09] [User Authenticator #7/INFO]: UUID of player BeanuttPutter is 1f0ea0f4-0eaa-40b9-a582-eba09cfbfa56
+[00:43:09] [Server thread/INFO]: BeanuttPutter joined the game
+[00:43:09] [Server thread/INFO]: BeanuttPutter[/107.131.18.138:57062] logged in with entity id 75704 at ([world]-139.63130846609485, 70.0, 186.87449830525821)
+[00:47:23] [User Authenticator #8/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[00:47:23] [Server thread/INFO]: DangerNoodle02 joined the game
+[00:47:23] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:55814] logged in with entity id 80423 at ([world]1264.7971420602535, 55.0, -33.307537186503914)
+[00:50:28] [Server thread/INFO]: BeanuttPutter fell from a high place
+[00:50:55] [Server thread/WARN]: Boat (vehicle of DangerNoodle02) moved wrongly! 0.29596429006687686
+[00:50:56] [Server thread/WARN]: Boat (vehicle of DangerNoodle02) moved wrongly! 0.612044933291827
+[00:50:56] [Server thread/WARN]: Boat (vehicle of DangerNoodle02) moved wrongly! 0.3132260568345373
+[00:50:56] [Server thread/WARN]: Boat (vehicle of DangerNoodle02) moved wrongly! 0.5904826290900473
+[00:50:56] [Server thread/WARN]: Boat (vehicle of DangerNoodle02) moved wrongly! 0.2728917073138746
+[00:50:56] [Server thread/WARN]: Boat (vehicle of DangerNoodle02) moved wrongly! 0.45786028640168297
+[00:51:36] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
+[00:51:36] [Server thread/INFO]: GmoneyKat left the game
+[00:55:15] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[00:55:15] [Server thread/INFO]: Sparkhelm left the game
+[00:55:41] [User Authenticator #9/INFO]: UUID of player GmoneyKat is b5725c16-98b1-4325-960c-4d47ffd74371
+[00:55:41] [Server thread/INFO]: GmoneyKat joined the game
+[00:55:41] [Server thread/INFO]: GmoneyKat[/174.64.168.41:55910] logged in with entity id 88567 at ([world]1103.4669450704596, 71.0, -161.76057936947728)
+[00:55:53] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
+[00:55:53] [Server thread/INFO]: DangerNoodle02 left the game
+[00:56:35] [Server thread/INFO]: AverageCob issued server command: /home
+[00:56:48] [Server thread/INFO]: AverageCob lost connection: Disconnected
+[00:56:48] [Server thread/INFO]: AverageCob left the game
+[00:57:51] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
+[00:57:51] [Server thread/INFO]: GmoneyKat left the game
+[00:59:08] [Server thread/INFO]: BeanuttPutter lost connection: Disconnected
+[00:59:08] [Server thread/INFO]: BeanuttPutter left the game
+[00:59:54] [User Authenticator #10/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[00:59:54] [Server thread/INFO]: Sparkhelm joined the game
+[00:59:54] [Server thread/INFO]: Sparkhelm[/174.64.172.46:50330] logged in with entity id 93443 at ([world]-567.7814403242705, 58.0, 300.49558721045753)
+[01:01:56] [Server thread/INFO]: ThtGyVrThr lost connection: Disconnected
+[01:01:56] [Server thread/INFO]: ThtGyVrThr left the game
+[01:09:55] [Server thread/INFO]: JJshocker0528 has made the advancement [Isn't It Iron Pick]
+[01:24:45] [Server thread/INFO]: JJshocker0528 has made the advancement [Not Today, Thank You]
+[01:27:00] [Server thread/INFO]: JJshocker0528 has made the advancement [Hot Stuff]
+[01:27:42] [User Authenticator #11/INFO]: UUID of player GmoneyKat is b5725c16-98b1-4325-960c-4d47ffd74371
+[01:27:42] [Server thread/INFO]: GmoneyKat joined the game
+[01:27:42] [Server thread/INFO]: GmoneyKat[/174.64.168.41:56477] logged in with entity id 101306 at ([world]1080.5133176159095, 71.0, -278.51352622848106)
+[01:28:03] [User Authenticator #11/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[01:28:03] [Server thread/INFO]: DangerNoodle02 joined the game
+[01:28:03] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:56816] logged in with entity id 101925 at ([world]1112.67602101518, 68.0, -95.76017783671062)
+[01:28:22] [User Authenticator #11/INFO]: UUID of player BeanuttPutter is 1f0ea0f4-0eaa-40b9-a582-eba09cfbfa56
+[01:28:22] [Server thread/INFO]: BeanuttPutter joined the game
+[01:28:22] [Server thread/INFO]: BeanuttPutter[/107.131.18.138:58147] logged in with entity id 102420 at ([world]616.9478517535779, 62.07326391013542, -77.23700079190078)
+[01:30:10] [User Authenticator #12/INFO]: UUID of player AverageCob is a9048dda-d30e-4383-9677-d12793755a15
+[01:30:10] [Server thread/INFO]: AverageCob joined the game
+[01:30:10] [Server thread/INFO]: AverageCob[/99.83.26.159:60982] logged in with entity id 104434 at ([world]-572.5, 58.0, 301.5)
+[01:31:08] [Server thread/WARN]: Boat (vehicle of BeanuttPutter) moved wrongly! 1.1816788129508495
+[01:31:08] [Server thread/WARN]: Boat (vehicle of BeanuttPutter) moved wrongly! 1.1816788129508495
+[01:32:03] [User Authenticator #13/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[01:32:03] [Server thread/INFO]: DangerNoodle02 lost connection: You logged in from another location
+[01:32:03] [Server thread/INFO]: DangerNoodle02 left the game
+[01:32:03] [Server thread/INFO]: DangerNoodle02 joined the game
+[01:32:03] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:56846] logged in with entity id 106339 at ([world]1249.3125, 62.0, -11.28150864186458)
+[01:32:52] [User Authenticator #13/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[01:32:52] [Server thread/INFO]: DangerNoodle02 lost connection: You logged in from another location
+[01:32:52] [Server thread/INFO]: DangerNoodle02 left the game
+[01:32:52] [Server thread/INFO]: DangerNoodle02 joined the game
+[01:32:52] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:56852] logged in with entity id 106814 at ([world]1244.2701277020763, 65.0, -29.02377011520405)
+[01:34:39] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
+[01:34:39] [Server thread/INFO]: DangerNoodle02 left the game
+[01:35:45] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
+[01:35:45] [Server thread/INFO]: GmoneyKat left the game
+[01:36:04] [Server thread/INFO]: BeanuttPutter lost connection: Disconnected
+[01:36:04] [Server thread/INFO]: BeanuttPutter left the game
+[01:38:49] [Server thread/INFO]: Sparkhelm has made the advancement [Sweet Dreams]
+[01:49:44] [Server thread/INFO]: AverageCob issued server command: /home
+[02:01:19] [Server thread/INFO]: JJshocker0528 has made the advancement [A Seedy Place]
+[02:04:13] [Server thread/INFO]: JJshocker0528 issued server command: /sethome
+[02:04:38] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[02:04:38] [Server thread/INFO]: Sparkhelm left the game
+[02:05:34] [User Authenticator #14/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[02:05:34] [Server thread/INFO]: Sparkhelm joined the game
+[02:05:34] [Server thread/INFO]: Sparkhelm[/174.64.172.46:51521] logged in with entity id 118696 at ([world]-557.0652853064457, 64.0, 302.0157022625414)
+[02:09:30] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[02:09:30] [Server thread/INFO]: Sparkhelm left the game
+[02:10:54] [User Authenticator #15/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[02:10:54] [Server thread/INFO]: Sparkhelm joined the game
+[02:10:54] [Server thread/INFO]: Sparkhelm[/174.64.172.46:51824] logged in with entity id 122088 at ([world]-935.2564919737487, 64.58477326871305, 159.58684998099665)
+[02:12:32] [Server thread/INFO]: JJshocker0528 has made the advancement [The Parrots and the Bats]
+[02:13:07] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[02:13:07] [Server thread/INFO]: Sparkhelm left the game
+[02:15:37] [User Authenticator #16/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[02:15:37] [Server thread/INFO]: Sparkhelm joined the game
+[02:15:37] [Server thread/INFO]: Sparkhelm[/174.64.172.46:50189] logged in with entity id 124312 at ([world]-1210.5283767001467, 61.21644025935552, -142.15698880297623)
+[02:16:06] [Server thread/INFO]: JJshocker0528 has made the advancement [Suit Up]
+[02:19:09] [Server thread/INFO]: AverageCob issued server command: /home
+[02:21:37] [User Authenticator #17/INFO]: UUID of player Broulf is d585e28c-2e19-4e4a-996a-074ddf795d35
+[02:21:37] [Server thread/INFO]: Broulf joined the game
+[02:21:37] [Server thread/INFO]: Broulf[/130.70.18.200:51988] logged in with entity id 128300 at ([world]-9.600016853158001, 60.0, 609.6999999880791)
+[02:24:33] [Server thread/INFO]: AverageCob has made the advancement [Suit Up]
+[02:25:17] [Server thread/INFO]: Broulf issued server command: /home
+[02:25:36] [Server thread/INFO]: AverageCob issued server command: /sethome
+[02:25:57] [Server thread/INFO]: JJshocker0528 issued server command: /home
+[02:26:01] [Server thread/INFO]: Broulf issued server command: /sethome
+[02:29:16] [Server thread/INFO]: Broulf has made the advancement [Diamonds!]
+[02:33:20] [Server thread/INFO]: JJshocker0528 has made the advancement [Diamonds!]
+[02:36:42] [Server thread/INFO]: Broulf issued server command: /home
+[02:37:20] [Server thread/INFO]: AverageCob has made the advancement [Ice Bucket Challenge]
+[02:37:37] [Server thread/INFO]: Broulf was slain by Enderman
+[02:37:49] [Server thread/INFO]: Broulf was slain by Zombie
+[02:38:38] [Server thread/INFO]: Broulf issued server command: /home
+[02:38:38] [Server thread/WARN]: Broulf moved too quickly! 46.809616573228396,-3.5,-11.049586902965075
+[02:40:48] [Server thread/INFO]: AverageCob issued server command: /home
+[02:40:48] [Server thread/WARN]: AverageCob moved too quickly! -103.21977523750627,46.0,-260.2988514762999
+[02:41:01] [Server thread/INFO]: Broulf has made the advancement [We Need to Go Deeper]
+[02:42:04] [Async Chat Thread - #1/INFO]: <Broulf> 3 63
+[02:44:42] [Server thread/INFO]: Broulf has made the advancement [Hidden in the Depths]
+[02:47:26] [Server thread/INFO]: Broulf issued server command: /home
+[02:47:54] [Server thread/INFO]: JJshocker0528 issued server command: /home
+[02:50:50] [Server thread/INFO]: JJshocker0528 has made the advancement [Ice Bucket Challenge]
+[02:52:24] [Server thread/WARN]: Broulf moved wrongly!
+[02:52:24] [Server thread/INFO]: JJshocker0528 has made the advancement [Enchanter]
+[02:55:35] [User Authenticator #18/INFO]: UUID of player GmoneyKat is b5725c16-98b1-4325-960c-4d47ffd74371
+[02:55:35] [Server thread/INFO]: GmoneyKat joined the game
+[02:55:35] [Server thread/INFO]: GmoneyKat[/174.64.168.41:57646] logged in with entity id 150052 at ([world]1102.0925383888869, 71.0, -154.38061104398548)
+[02:55:42] [User Authenticator #18/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[02:55:43] [Server thread/INFO]: DangerNoodle02 joined the game
+[02:55:43] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:58287] logged in with entity id 150412 at ([world]1258.5127098477658, 66.0, -31.0876896608763)
+[02:59:07] [Server thread/INFO]: Broulf issued server command: /home
+[03:00:48] [Async Chat Thread - #2/INFO]: <Broulf> Jonathon, what's your coords?
+[03:00:59] [Async Chat Thread - #2/INFO]: <JJshocker0528> -1200/ 377
+[03:01:09] [Async Chat Thread - #2/INFO]: <GmoneyKat> you done fucked up
+[03:01:49] [Async Chat Thread - #2/INFO]: <JJshocker0528> was i not supposed to go that far?
+[03:02:02] [Async Chat Thread - #2/INFO]: <Broulf> Nah, your good
+[03:02:06] [Async Chat Thread - #2/INFO]: <JJshocker0528> okk
+[03:02:11] [Server thread/INFO]: DangerNoodle02 has made the advancement [Ol' Betsy]
+[03:02:43] [Async Chat Thread - #2/INFO]: <AverageCob> T
+[03:04:31] [Server thread/INFO]: Sparkhelm issued server command: /home
+[03:04:41] [Server thread/INFO]: Broulf has made the advancement [Enchanter]
+[03:05:03] [Server thread/INFO]: JJshocker0528 issued server command: /home
+[03:07:46] [Server thread/INFO]: DangerNoodle02 has made the advancement [Take Aim]
+[03:08:06] [Server thread/INFO]: JJshocker0528 issued server command: /home
+[03:09:31] [Server thread/INFO]: Broulf has made the advancement [The Parrots and the Bats]
+[03:12:50] [Async Chat Thread - #3/INFO]: <DangerNoodle02> where did yougo
+[03:13:22] [Async Chat Thread - #3/INFO]: <JJshocker0528> I died
+[03:13:56] [Async Chat Thread - #3/INFO]: <DangerNoodle02> come back i have present
+[03:14:01] [Async Chat Thread - #3/INFO]: <JJshocker0528> no
+[03:14:10] [Async Chat Thread - #3/INFO]: <JJshocker0528> is the present death?
+[03:14:19] [Async Chat Thread - #3/INFO]: <JJshocker0528> or my diamondos
+[03:14:37] [Async Chat Thread - #3/INFO]: <DangerNoodle02> you will have to find out
+[03:14:46] [Async Chat Thread - #3/INFO]: <JJshocker0528> no
+[03:15:27] [Async Chat Thread - #3/INFO]: <DangerNoodle02> i cant kill you unless you let me
+[03:20:43] [Async Chat Thread - #4/INFO]: <Broulf> Jonathon, we also have /sethome btw
+[03:21:02] [Async Chat Thread - #4/INFO]: <DangerNoodle02> where are you johny boy
+[03:22:32] [Server thread/INFO]: AverageCob lost connection: Disconnected
+[03:22:32] [Server thread/INFO]: AverageCob left the game
+[03:22:54] [Server thread/INFO]: JJshocker0528 issued server command: /sethome
+[03:27:34] [Server thread/INFO]: DangerNoodle02 was slain by JJshocker0528
+[03:27:48] [Server thread/INFO]: DangerNoodle02 issued server command: /back
+[03:27:54] [Async Chat Thread - #5/INFO]: <Broulf> Secure his beloingings and leave it in a chest at your base
+[03:28:04] [Async Chat Thread - #5/INFO]: <JJshocker0528> i won stupid
+[03:28:36] [Async Chat Thread - #5/INFO]: <JJshocker0528> my books you monsters
+[03:28:46] [Async Chat Thread - #5/INFO]: <Broulf> Monster*
+[03:32:03] [Async Chat Thread - #6/INFO]: <GmoneyKat> harley said andrew needs jesus
+[03:32:04] [Server thread/INFO]: Sparkhelm issued server command: /home
+[03:32:07] [Async Chat Thread - #6/INFO]: <Broulf> Yes
+[03:32:14] [Async Chat Thread - #6/INFO]: <Broulf> Told her about the beds?
+[03:33:12] [Async Chat Thread - #6/INFO]: <JJshocker0528> srry
+[03:34:29] [Async Chat Thread - #7/INFO]: <DangerNoodle02> if your leaving can i burn the house
+[03:34:41] [Async Chat Thread - #7/INFO]: <JJshocker0528> yeah just give me a sec
+[03:37:54] [Server thread/INFO]: Sparkhelm has made the advancement [A Seedy Place]
+[03:39:21] [Server thread/INFO]: DangerNoodle02 issued server command: /ho
+[03:39:25] [Server thread/INFO]: DangerNoodle02 issued server command: /home
+[03:40:26] [Async Chat Thread - #8/INFO]: <GmoneyKat> fuck u
+[03:40:41] [Server thread/ERROR]: Block at 50, 39, -120 is Block{minecraft:water} but has net.minecraft.server.v1_16_R3.TileEntityChest@13e5f3ea. Bukkit will attempt to fix this, but there may be additional damage that we cannot recover.
+[03:44:07] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
+[03:44:07] [Server thread/INFO]: DangerNoodle02 left the game
+[03:48:51] [User Authenticator #19/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[03:48:51] [Server thread/WARN]: Using offline mode UUID file for player ashm60 as it is the only copy we can find.
+[03:48:51] [Server thread/INFO]: ashm60 joined the game
+[03:48:51] [Server thread/INFO]: ashm60[/172.222.200.167:61277] logged in with entity id 194045 at ([world]186.69999998807907, 94.5979679760046, 567.4796582943331)
+[03:48:57] [Async Chat Thread - #9/INFO]: <Broulf> Look who it tis
+[03:49:23] [Server thread/INFO]: ashm60 lost connection: Disconnected
+[03:49:23] [Server thread/INFO]: ashm60 left the game
+[03:49:28] [Server thread/INFO]: Broulf issued server command: /home
+[03:49:28] [Server thread/WARN]: Broulf moved too quickly! -20.515841938341175,-3.5,-29.21721906921823
+[03:49:34] [User Authenticator #19/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[03:49:34] [Server thread/INFO]: ashm60 joined the game
+[03:49:34] [Server thread/INFO]: ashm60[/172.222.200.167:61286] logged in with entity id 194551 at ([world]186.69999998807907, 94.22133747776594, 567.4796582943331)
+[03:50:06] [Server thread/INFO]: ashm60 lost connection: Timed out
+[03:50:06] [Server thread/INFO]: ashm60 left the game
+[03:50:12] [User Authenticator #19/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[03:50:12] [Server thread/INFO]: ashm60 joined the game
+[03:50:12] [Server thread/INFO]: ashm60[/172.222.200.167:61289] logged in with entity id 195142 at ([world]186.69999998807907, 94.06610547324934, 567.4796582943331)
+[03:50:43] [Server thread/INFO]: ashm60 lost connection: Timed out
+[03:50:43] [Server thread/INFO]: ashm60 left the game
+[03:55:12] [Server thread/INFO]: Broulf issued server command: /home
+[03:55:12] [Server thread/WARN]: Broulf moved too quickly! 21.389171923123403,55.5,-3.3842703043258098
+[03:56:16] [Server thread/INFO]: JJshocker0528 issued server command: /sethome
+[04:00:54] [Server thread/INFO]: JJshocker0528 has made the advancement [Who is Cutting Onions?]
+[04:05:09] [User Authenticator #20/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[04:05:09] [Server thread/INFO]: ashm60 joined the game
+[04:05:09] [Server thread/INFO]: ashm60[/172.222.200.167:61552] logged in with entity id 207304 at ([world]186.69999998807907, 94.0, 567.4796582943331)
+[04:05:44] [Server thread/INFO]: ashm60 lost connection: Timed out
+[04:05:44] [Server thread/INFO]: ashm60 left the game
+[04:06:23] [User Authenticator #21/INFO]: UUID of player ThtGyVrThr is 39ed10e4-efd3-4685-b6dc-64f6653b085f
+[04:06:23] [Server thread/INFO]: ThtGyVrThr joined the game
+[04:06:23] [Server thread/INFO]: ThtGyVrThr[/138.47.224.211:53581] logged in with entity id 208324 at ([world]-5638.762499988079, 64.0, -1010.9440224240698)
+[04:07:39] [Server thread/INFO]: GmoneyKat was slain by Phantom
+[04:07:45] [Async Chat Thread - #10/INFO]: <GmoneyKat> dafuq
+[04:08:19] [Server thread/INFO]: Sparkhelm issued server command: /home
+[04:10:40] [Server thread/INFO]: JJshocker0528 issued server command: /home
+[04:15:48] [Server thread/INFO]: ThtGyVrThr issued server command: /sethome
+[04:20:41] [Server thread/INFO]: JJshocker0528 issued server command: /sethome
+[04:27:09] [Server thread/INFO]: ThtGyVrThr has made the advancement [Diamonds!]
+[04:28:52] [Server thread/INFO]: ThtGyVrThr has made the advancement [Not Today, Thank You]
+[04:33:31] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
+[04:33:31] [Server thread/INFO]: GmoneyKat left the game
+[04:36:21] [Server thread/INFO]: JJshocker0528 issued server command: /home
+[04:37:05] [Server thread/INFO]: JJshocker0528 lost connection: Disconnected
+[04:37:05] [Server thread/INFO]: JJshocker0528 left the game
+[04:38:53] [Server thread/INFO]: ThtGyVrThr issued server command: /home
+[04:39:09] [Server thread/INFO]: Broulf issued server command: /seed
+[04:39:33] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[04:39:33] [Server thread/INFO]: Sparkhelm left the game
+[04:42:33] [Server thread/INFO]: ThtGyVrThr has made the advancement [Suit Up]
+[04:43:59] [Server thread/INFO]: Broulf hit the ground too hard
+[04:44:08] [Server thread/WARN]: Broulf moved wrongly!
+[04:44:08] [Server thread/WARN]: Broulf moved wrongly!
+[04:44:09] [Server thread/WARN]: Broulf moved wrongly!
+[04:44:34] [Server thread/INFO]: ThtGyVrThr lost connection: Disconnected
+[04:44:34] [Server thread/INFO]: ThtGyVrThr left the game
+[04:45:19] [Server thread/INFO]: Broulf has made the advancement [Ice Bucket Challenge]
+[04:46:21] [Server thread/WARN]: Broulf moved wrongly!
+[04:46:22] [Server thread/WARN]: Broulf moved wrongly!
+[04:49:22] [Server thread/WARN]: Broulf moved wrongly!
+[04:50:36] [Server thread/WARN]: Broulf moved wrongly!
+[04:52:58] [Server thread/INFO]: Broulf issued server command: /home
+[05:01:49] [Server thread/INFO]: Broulf lost connection: Disconnected
+[05:01:49] [Server thread/INFO]: Broulf left the game
+[05:01:50] [User Authenticator #22/INFO]: UUID of player Broulf is d585e28c-2e19-4e4a-996a-074ddf795d35
+[05:01:50] [Server thread/INFO]: Broulf joined the game
+[05:01:50] [Server thread/INFO]: Broulf[/130.70.18.200:58404] logged in with entity id 244041 at ([world]-8.70441161409537, 63.9375, 627.2677913009516)
+[05:05:16] [User Authenticator #23/INFO]: UUID of player GmoneyKat is b5725c16-98b1-4325-960c-4d47ffd74371
+[05:05:16] [Server thread/INFO]: GmoneyKat joined the game
+[05:05:16] [Server thread/INFO]: GmoneyKat[/174.64.168.41:58515] logged in with entity id 244408 at ([world]1056.4867073955782, 66.0, -69.04755168386839)
+[05:05:26] [Async Chat Thread - #11/INFO]: <GmoneyKat> am vibin
+[05:05:31] [Async Chat Thread - #11/INFO]: <GmoneyKat> howa bout u
+[05:10:45] [Server thread/INFO]: GmoneyKat has made the advancement [Isn't It Iron Pick]
+[05:11:00] [Server thread/INFO]: GmoneyKat has made the advancement [Enchanter]
+[05:17:38] [Server thread/INFO]: GmoneyKat has made the advancement [Diamonds!]
+[05:23:25] [Server thread/INFO]: GmoneyKat issued server command: /home
+[05:25:50] [Server thread/INFO]: Broulf issued server command: /home
+[05:25:50] [Server thread/WARN]: Broulf moved too quickly! -44.83112383170518,-3.5,-75.55824822430623
+[05:25:52] [Server thread/INFO]: GmoneyKat has made the advancement [Sweet Dreams]
+[05:37:13] [Server thread/INFO]: GmoneyKat issued server command: /home
+[05:37:13] [Server thread/WARN]: GmoneyKat moved too quickly! 213.06971761756722,-8.0,30.1375563806128
+[05:49:52] [User Authenticator #24/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[05:49:52] [Server thread/INFO]: Sparkhelm joined the game
+[05:49:52] [Server thread/INFO]: Sparkhelm[/174.64.172.46:62819] logged in with entity id 259808 at ([world]-570.0725919732254, 58.0, 298.88974020072203)
+[06:02:05] [Async Chat Thread - #12/INFO]: <Broulf> Can someone sleep?
+[06:02:10] [Async Chat Thread - #12/INFO]: <Sparkhelm> yee
+[06:02:14] [Async Chat Thread - #12/INFO]: <GmoneyKat> Broulf
+[06:02:17] [Async Chat Thread - #12/INFO]: <Broulf> Merci
+[06:07:33] [Server thread/INFO]: Sparkhelm issued server command: /home
+[06:10:11] [Server thread/INFO]: Sparkhelm has made the advancement [Ice Bucket Challenge]
+[06:11:11] [Server thread/INFO]: Sparkhelm issued server command: /home
+[06:14:18] [Server thread/WARN]: Sparkhelm moved too quickly! 2.1339314948749006,-2.0,9.813726054959432
+[06:15:03] [Server thread/INFO]: Broulf issued server command: /home
+[06:16:46] [Server thread/INFO]: GmoneyKat issued server command: /home
+[06:16:46] [Server thread/WARN]: GmoneyKat moved too quickly! 23.34370338329154,-6.007018447441283,230.83071075743308
+[06:21:43] [Server thread/INFO]: GmoneyKat issued server command: /home
+[06:25:58] [Async Chat Thread - #13/INFO]: <Sparkhelm> can some1 sleep?
+[06:26:03] [Async Chat Thread - #13/INFO]: <Broulf> ye
+[06:26:04] [Server thread/INFO]: Broulf issued server command: /home
+[06:46:34] [Server thread/INFO]: Broulf has completed the challenge [Return to Sender]
+[06:46:53] [Server thread/WARN]: Broulf moved wrongly!
+[06:46:53] [Server thread/WARN]: Broulf moved wrongly!
+[06:47:25] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[06:47:25] [Server thread/INFO]: Sparkhelm left the game
+[06:51:03] [User Authenticator #25/INFO]: UUID of player Sparkhelm is 5a276f77-68e5-450d-bd43-c3801c20229c
+[06:51:04] [Server thread/INFO]: Sparkhelm joined the game
+[06:51:04] [Server thread/INFO]: Sparkhelm[/174.64.172.46:50023] logged in with entity id 303143 at ([world]-4886.699999988079, 85.05000004172325, -414.5594363753474)
+[06:51:33] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:33] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:33] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:33] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:33] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:33] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:34] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:34] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:34] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:34] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:34] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:35] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:46] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:46] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:46] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:46] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:46] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:47] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:47] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:47] [Server thread/WARN]: Broulf moved wrongly!
+[06:51:48] [Server thread/WARN]: Broulf moved wrongly!
+[06:52:32] [Server thread/WARN]: Broulf moved wrongly!
+[06:52:32] [Server thread/WARN]: Broulf moved wrongly!
+[06:52:32] [Server thread/WARN]: Broulf moved wrongly!
+[06:52:51] [Server thread/WARN]: Broulf moved wrongly!
+[06:52:51] [Server thread/WARN]: Broulf moved wrongly!
+[06:52:59] [Server thread/WARN]: Broulf moved wrongly!
+[06:52:59] [Server thread/WARN]: Broulf moved wrongly!
+[06:53:00] [Server thread/WARN]: Broulf moved wrongly!
+[06:53:00] [Server thread/WARN]: Broulf moved wrongly!
+[06:53:00] [Server thread/WARN]: Broulf moved wrongly!
+[06:53:15] [Server thread/INFO]: Sparkhelm issued server command: /home
+[06:56:37] [Server thread/INFO]: Broulf has made the advancement [Those Were the Days]
+[06:57:36] [Server thread/INFO]: Broulf has made the advancement [War Pigs]
+[06:57:43] [Server thread/INFO]: Broulf has made the advancement [Who is Cutting Onions?]
+[06:58:00] [Server thread/INFO]: GmoneyKat issued server command: /home
+[06:58:00] [Server thread/WARN]: GmoneyKat moved too quickly! 160.90077098155643,-12.0,162.20927808403806
+[06:58:27] [Server thread/WARN]: Broulf moved wrongly!
+[06:59:37] [Server thread/INFO]: GmoneyKat issued server command: /home
+[06:59:37] [Server thread/WARN]: GmoneyKat moved too quickly! 168.5139928077583,-13.0,182.83212985502823
+[06:59:40] [Server thread/WARN]: Broulf moved wrongly!
+[06:59:40] [Server thread/WARN]: Broulf moved wrongly!
+[06:59:41] [Server thread/WARN]: Broulf moved wrongly!
+[06:59:41] [Server thread/WARN]: Broulf moved wrongly!
+[06:59:41] [Server thread/WARN]: Broulf moved wrongly!
+[07:00:13] [Server thread/INFO]: GmoneyKat has made the advancement [Getting an Upgrade]
+[07:02:05] [Server thread/INFO]: Broulf was slain by Piglin Brute
+[07:02:21] [Server thread/INFO]: GmoneyKat issued server command: /home
+[07:03:36] [Server thread/INFO]: GmoneyKat issued server command: /home
+[07:04:11] [Server thread/INFO]: Broulf issued server command: /tp @s 179 57 -299
+[07:04:11] [Server thread/INFO]: [Broulf: Teleported Broulf to 179.5, 57.0, -298.5]
+[07:04:51] [Server thread/INFO]: Broulf was slain by Piglin
+[07:05:10] [Server thread/INFO]: Broulf issued server command: /tp @s 183 57 -299
+[07:05:10] [Server thread/INFO]: [Broulf: Teleported Broulf to 183.5, 57.0, -298.5]
+[07:05:16] [Server thread/INFO]: Broulf has made the advancement [Take Aim]
+[07:05:41] [Server thread/INFO]: Sparkhelm was slain by Drowned
+[07:05:42] [Server thread/INFO]: GmoneyKat issued server command: /set home
+[07:05:51] [Server thread/INFO]: GmoneyKat issued server command: /sethome
+[07:06:56] [Server thread/WARN]: Broulf moved wrongly!
+[07:06:56] [Server thread/WARN]: Broulf moved wrongly!
+[07:06:57] [Server thread/WARN]: Broulf moved wrongly!
+[07:06:57] [Server thread/WARN]: Broulf moved wrongly!
+[07:06:57] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:26] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:26] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:26] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:26] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:26] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:27] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:27] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:27] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:27] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:27] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:27] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:28] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:28] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:28] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:28] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:28] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:28] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:39] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:44] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:44] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:54] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:54] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:55] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:55] [Server thread/WARN]: Broulf moved wrongly!
+[07:08:56] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:01] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:01] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:04] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:04] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:04] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:04] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:04] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:04] [Server thread/WARN]: Broulf moved wrongly!
+[07:10:05] [Server thread/WARN]: Broulf moved wrongly!
+[07:18:38] [Server thread/INFO]: Broulf lost connection: Disconnected
+[07:18:38] [Server thread/INFO]: Broulf left the game
+[07:34:28] [Server thread/INFO]: Sparkhelm issued server command: /home
+[07:42:27] [Server thread/INFO]: Sparkhelm has made the advancement [We Need to Go Deeper]
+[07:44:04] [User Authenticator #26/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[07:44:04] [Server thread/INFO]: ashm60 joined the game
+[07:44:04] [Server thread/INFO]: ashm60[/172.222.200.167:62666] logged in with entity id 326819 at ([world]186.69999998807907, 94.0, 567.4796582943331)
+[07:44:43] [Server thread/INFO]: ashm60 lost connection: Disconnected
+[07:44:43] [Server thread/INFO]: ashm60 left the game
+[07:47:06] [Server thread/INFO]: Sparkhelm issued server command: /home
+[08:00:43] [User Authenticator #27/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[08:00:43] [Server thread/INFO]: ashm60 joined the game
+[08:00:43] [Server thread/INFO]: ashm60[/172.222.200.167:50086] logged in with entity id 331283 at ([world]187.6965518983827, 94.62336950176135, 567.4818105248801)
+[08:01:28] [Server thread/WARN]: ashm60 was kicked due to keepalive timeout!
+[08:01:28] [Server thread/INFO]: ashm60 lost connection: Timed out
+[08:01:28] [Server thread/INFO]: ashm60 left the game
+[08:01:45] [Server thread/INFO]: GmoneyKat was slain by Enderman
+[08:11:35] [User Authenticator #28/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[08:11:35] [Server thread/INFO]: ashm60 joined the game
+[08:11:35] [Server thread/INFO]: ashm60[/172.222.200.167:50112] logged in with entity id 334561 at ([world]187.85801371130958, 94.0, 567.6999999880791)
+[08:16:02] [Server thread/WARN]: ashm60 was kicked due to keepalive timeout!
+[08:16:02] [Server thread/INFO]: ashm60 lost connection: Timed out
+[08:16:02] [Server thread/INFO]: ashm60 left the game
+[08:22:05] [Server thread/INFO]: GmoneyKat issued server command: /sethome
+[08:22:08] [Server thread/INFO]: GmoneyKat issued server command: /home
+[08:23:03] [User Authenticator #29/INFO]: UUID of player ashm60 is cc91d34a-f39f-4ff0-935c-bc2e398677ed
+[08:23:03] [Server thread/INFO]: ashm60 joined the game
+[08:23:03] [Server thread/INFO]: ashm60[/172.222.200.167:50172] logged in with entity id 338850 at ([world]-18.05675255886126, 64.0, 611.3074808633394)
+[08:26:02] [Server thread/INFO]: ashm60 lost connection: Disconnected
+[08:26:02] [Server thread/INFO]: ashm60 left the game
+[08:31:40] [Server thread/INFO]: Sparkhelm lost connection: Disconnected
+[08:31:40] [Server thread/INFO]: Sparkhelm left the game
+[08:51:34] [Server thread/INFO]: GmoneyKat issued server command: /home
+[08:58:30] [User Authenticator #30/INFO]: UUID of player Broulf is d585e28c-2e19-4e4a-996a-074ddf795d35
+[08:58:31] [Server thread/INFO]: Broulf joined the game
+[08:58:31] [Server thread/INFO]: Broulf[/130.70.18.200:52855] logged in with entity id 358056 at ([world]20.131054095639662, 64.0, 614.6599317118114)
+[09:05:31] [Server thread/INFO]: Broulf issued server command: /home
+[09:13:46] [Server thread/INFO]: GmoneyKat issued server command: /home
+[09:14:29] [Server thread/INFO]: Broulf was slain by Zombie
+[09:14:50] [Server thread/INFO]: Broulf issued server command: /tp @s -61 28 412
+[09:14:50] [Server thread/INFO]: [Broulf: Teleported Broulf to -60.5, 28.0, 412.5]
+[09:14:50] [Server thread/WARN]: Broulf moved too quickly! -1.6453886003731952,-26.0,-38.858720145106645
+[09:25:23] [Server thread/INFO]: Broulf issued server command: /home
+[09:26:20] [Server thread/INFO]: Broulf issued server command: /tp @s -68 31 448
+[09:26:20] [Server thread/INFO]: [Broulf: Teleported Broulf to -67.5, 31.0, 448.5]
+[09:27:00] [User Authenticator #31/INFO]: UUID of player DangerNoodle02 is 3418ddc7-62f0-4b0b-8c81-8deca43b0408
+[09:27:00] [Server thread/INFO]: DangerNoodle02 joined the game
+[09:27:00] [Server thread/INFO]: DangerNoodle02[/45.20.144.124:60509] logged in with entity id 375053 at ([world]1268.3823424922023, 55.0, -29.478078801266648)
+[09:27:56] [Server thread/INFO]: GmoneyKat has made the advancement [Ol' Betsy]
+[09:27:57] [Server thread/INFO]: GmoneyKat has made the advancement [Take Aim]
+[09:29:06] [Server thread/INFO]: DangerNoodle02 has made the advancement [Not Today, Thank You]
+[09:30:25] [Server thread/INFO]: GmoneyKat has made the advancement [Best Friends Forever]
+[09:43:01] [Server thread/INFO]: DangerNoodle02 lost connection: Disconnected
+[09:43:01] [Server thread/INFO]: DangerNoodle02 left the game
+[09:44:05] [Server thread/INFO]: Broulf issued server command: /home
+[09:44:05] [Server thread/WARN]: Broulf moved too quickly! 53.568876144452965,21.5,145.11495771594127
+[09:46:56] [Server thread/INFO]: Broulf issued server command: /home
+[09:47:44] [Server thread/INFO]: Broulf issued server command: /tp @s -68 31 448
+[09:47:44] [Server thread/INFO]: [Broulf: Teleported Broulf to -67.5, 31.0, 448.5]
+[09:47:44] [Server thread/WARN]: Broulf moved too quickly! -57.58927598413165,-33.0,-145.6443130995566
+[09:48:11] [Server thread/INFO]: Broulf issued server command: /home
+[09:48:11] [Server thread/WARN]: Broulf moved too quickly! 56.76602932755845,34.5,151.14616565453616
+[09:50:18] [Server thread/INFO]: Broulf issued server command: /home
+[09:50:36] [Server thread/INFO]: Broulf issued server command: /tp @s -68 31 448
+[09:50:36] [Server thread/INFO]: [Broulf: Teleported Broulf to -67.5, 31.0, 448.5]
+[09:52:42] [Async Chat Thread - #14/INFO]: <Broulf> -62 441
+[09:53:00] [Async Chat Thread - #14/INFO]: <Broulf> 32
+[09:54:49] [Async Chat Thread - #15/INFO]: <Broulf> -62 449
+[09:57:37] [Server thread/INFO]: GmoneyKat lost connection: Disconnected
+[09:57:37] [Server thread/INFO]: GmoneyKat left the game
+[10:00:26] [Server thread/INFO]: Broulf issued server command: /home
+[10:00:26] [Server thread/WARN]: Broulf moved too quickly! 49.188112205020836,26.5,148.68244484846684
+[10:02:00] [Server thread/INFO]: Broulf issued server command: /tp @s -68 31 448
+[10:02:00] [Server thread/INFO]: [Broulf: Teleported Broulf to -67.5, 31.0, 448.5]
+[10:02:45] [Server thread/INFO]: Broulf issued server command: /gamemode creative
+[10:02:45] [Server thread/INFO]: [Broulf: Set own game mode to Creative Mode]
+[10:05:25] [Server thread/INFO]: Broulf issued server command: /gamemode survival
+[10:05:25] [Server thread/INFO]: [Broulf: Set own game mode to Survival Mode]
+[10:05:54] [Server thread/WARN]: Broulf moved wrongly!
+[10:06:22] [Server thread/INFO]: Broulf issued server command: /give Broulf minecraft:chest
+[10:06:22] [Server thread/INFO]: [Broulf: Gave 1 [Chest] to Broulf]
+[10:06:25] [Server thread/INFO]: Broulf issued server command: /give Broulf minecraft:chest 9
+[10:06:25] [Server thread/INFO]: [Broulf: Gave 9 [Chest] to Broulf]
+[10:09:11] [Server thread/INFO]: Broulf issued server command: /home
+[10:11:55] [Server thread/INFO]: Broulf issued server command: /weather clear
+[10:11:55] [Server thread/INFO]: [Broulf: Set the weather to clear]
+[10:12:19] [Server thread/INFO]: Broulf issued server command: /enchant Broulf mending
+[10:12:19] [Server thread/INFO]: [Broulf: Applied enchantment Mending to Broulf's item]
+[10:12:31] [Server thread/INFO]: Broulf issued server command: /enchant Broulf mending
+[10:12:31] [Server thread/INFO]: [Broulf: Applied enchantment Mending to Broulf's item]
+[10:12:36] [Server thread/INFO]: Broulf issued server command: /enchant Broulf minecraft:unbreaking 3
+[10:12:36] [Server thread/INFO]: [Broulf: Applied enchantment Unbreaking III to Broulf's item]
+[10:12:41] [Server thread/INFO]: Broulf issued server command: /enchant Broulf minecraft:efficiency 5
+[10:12:41] [Server thread/INFO]: [Broulf: Applied enchantment Efficiency V to Broulf's item]
+[10:12:47] [Server thread/INFO]: Broulf issued server command: /enchant Broulf minecraft:fortune 3
+[10:12:47] [Server thread/INFO]: [Broulf: Applied enchantment Fortune III to Broulf's item]
+[10:13:20] [Server thread/INFO]: Broulf issued server command: /enchant Broulf minecraft:efficiency 5
+[10:13:20] [Server thread/INFO]: [Broulf: Applied enchantment Efficiency V to Broulf's item]
+[10:13:23] [Server thread/INFO]: Broulf issued server command: /enchant Broulf minecraft:unbreaking 3
+[10:13:23] [Server thread/INFO]: [Broulf: Applied enchantment Unbreaking III to Broulf's item]
+[10:13:25] [Server thread/INFO]: Broulf issued server command: /enchant Broulf minecraft:efficiency 5
+[10:13:32] [Server thread/INFO]: Broulf issued server command: /enchant Broulf mending
+[10:13:32] [Server thread/INFO]: [Broulf: Applied enchantment Mending to Broulf's item]
+[10:15:16] [Server thread/INFO]: Broulf lost connection: Disconnected
+[10:15:16] [Server thread/INFO]: Broulf left the game
+[10:15:43] [Server thread/INFO]: Stopping the server
+[10:15:43] [Server thread/INFO]: Stopping server
+[10:15:43] [Server thread/INFO]: [OpenInv] Disabling OpenInv v4.1.5
+[10:15:43] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.0+a51fa43
+[10:15:43] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[10:15:43] [Server thread/INFO]: [SetHome] Disabling SetHome v5.1.2
+[10:15:43] [Server thread/INFO]: [BroulfFreeze] Disabling BroulfFreeze v1.0
+[10:15:43] [Server thread/INFO]: BroulfFreeze  1.0 has been disabled.
+[10:15:43] [Server thread/INFO]: Saving players
+[10:15:43] [Server thread/INFO]: Saving worlds
+[10:15:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:15:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[10:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:15:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[10:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:15:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:15:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:15:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:15:44] [Server thread/INFO]: Flushing Chunk IO
+[10:15:44] [Server thread/INFO]: Closing Thread Pool
+[10:15:44] [Server thread/INFO]: Closing Server

@@ -4,5 +4,17 @@
     "name": "Broulf",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b5725c16-98b1-4325-960c-4d47ffd74371",
+    "name": "GmoneyKat",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d585e28c-2e19-4e4a-996a-074ddf795d35",
+    "name": "Broulf",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
